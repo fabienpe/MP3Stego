@@ -1,11 +1,10 @@
 /*--------------------------------------------------------------------
- * MP3Stego - $Workfile: stego.c $
  *
  * Contents: Error handling.
  *
  * Purpose:  
  *
- * Created:  Fabien A. P. Petitcolas, fabien22@petitcolas.net
+ * Created:  Fabien A. P. Petitcolas
  *
  * Modified: Encryption, compression and pseudo-random number
  *           functions for steganography.
@@ -56,9 +55,7 @@
  * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
- * DAMAGE. 
- *
- * $Header: /StegoLib/stego.c 9     12/09/02 10:04 Fabienpe $
+ * DAMAGE.
  *--------------------------------------------------------------------
  */
 

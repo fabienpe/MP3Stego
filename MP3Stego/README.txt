@@ -1,10 +1,6 @@
 MP3Stego
 --------
 
-Fabien A. P. Petitcolas, Cambridge
-13 June 2006
-
-
 When looking at the steganographic tools available on the Net, it occurred to
 me that nothing had been done to hide information in MP3 files, that is sound
 tracks compressed using the MPEG Audio Layer III format. There is a growing 
@@ -41,12 +37,10 @@ Compilation
 
 The full C code and binaries are available from:
 
-  <http://www.petitcolas.net/fabien/steganography/mp3stego/>
+  <https://www.petitcolas.net/steganography/mp3stego/>
 
 and compilation can easily be done by opening the MP3Stego.sln solution with
-free Microsoft Studio Express available from:
-
-  <http://msdn.microsoft.com/vstudio/express/visualc/>
+free Microsoft Studio.
 
 
 Usage exemple
@@ -101,9 +95,12 @@ Reference
 History
 -------
 
-13 June 2006 -      Minor updates
+3 November 2018 -   Correction of buffer overflow issue 
+                    reported by tsls <tslsgogogo@gmail.com>.
 
-12 September 2002 - Bug fixed in StegoOpenEmbeddedText
+13 June 2006 -      Minor updates.
+
+12 September 2002 - Bug fixed in StegoOpenEmbeddedText.
 
 19 Mars 2002 -      Compression library has been updated to 1.1.4.
 

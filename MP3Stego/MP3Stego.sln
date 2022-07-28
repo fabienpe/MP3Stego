@@ -1,21 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual C++ Express 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decode", "decoder\Decode.vcproj", "{2074DDF4-26A0-4032-8EC3-2548D8B4C023}"
-	ProjectSection(ProjectDependencies) = postProject
-		{E15EF978-D8A7-4A61-91FC-D6E2519E1C0A} = {E15EF978-D8A7-4A61-91FC-D6E2519E1C0A}
-		{4AB86279-CF52-48CE-8DDC-D7D2D6E3BC3F} = {4AB86279-CF52-48CE-8DDC-D7D2D6E3BC3F}
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decode", "Decoder\Decode.vcxproj", "{2074DDF4-26A0-4032-8EC3-2548D8B4C023}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encode", "encoder\Encode.vcproj", "{5C4B74E2-D388-4D4E-BB58-E9B2B0CCD929}"
-	ProjectSection(ProjectDependencies) = postProject
-		{E15EF978-D8A7-4A61-91FC-D6E2519E1C0A} = {E15EF978-D8A7-4A61-91FC-D6E2519E1C0A}
-		{4AB86279-CF52-48CE-8DDC-D7D2D6E3BC3F} = {4AB86279-CF52-48CE-8DDC-D7D2D6E3BC3F}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encode", "Encoder\Encode.vcxproj", "{5C4B74E2-D388-4D4E-BB58-E9B2B0CCD929}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GZLib", "..\zlib-1.1.4\GZLib.vcproj", "{E15EF978-D8A7-4A61-91FC-D6E2519E1C0A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GZLib", "..\zlib-1.1.4\GZLib.vcxproj", "{E15EF978-D8A7-4A61-91FC-D6E2519E1C0A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StegoLib", "..\StegoLib\StegoLib.vcproj", "{4AB86279-CF52-48CE-8DDC-D7D2D6E3BC3F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StegoLib", "..\StegoLib\StegoLib.vcxproj", "{4AB86279-CF52-48CE-8DDC-D7D2D6E3BC3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B3A0DC9-7F9B-4B78-9C76-D6AC4AA8E388}
 	EndGlobalSection
 EndGlobal

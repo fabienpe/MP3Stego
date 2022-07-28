@@ -1,11 +1,10 @@
 /*--------------------------------------------------------------------
- * MP3Stego - $Workfile: tools.c $
  *
  * Contents: Error handling.
  *
  * Purpose:  
  *
- * Created:  Fabien A. P. Petitcolas, fabien22@petitcolas.net
+ * Created:  Fabien A. P. Petitcolas
  *
  * Modified: Encryption, compression and pseudo-random number
  *           functions for steganography.
@@ -57,8 +56,6 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  * DAMAGE. 
- *
- * $Header: /StegoLib/tools.c 11    19/03/02 10:55 Fabienpe $
  *--------------------------------------------------------------------
  */
 #include <time.h>
@@ -225,18 +222,14 @@ int GetPseudoRandomBit(int cmd)
  */
 void GetTemporaryFileName(char pszTemp[256])
 {
-    char buf[256];
+    char buf[L_tmpnam];
 
     if((tmpnam(buf)) == NULL)
         ERROR("GetTemporaryFileName: could not create temporary file.");
 
-#ifdef WIN32
-    strcpy(pszTemp, buf + 1); /* Dirty trick to bypass the / so the    */
-                              /* file won't be created in the root dir */
-#else
     strcpy(pszTemp, buf);
-#endif
-    strcat(pszTemp, TMP_FILE_EXT);
+
+	strcat(pszTemp, TMP_FILE_EXT);
 }
 
 /*---------------------------------------------------------------------------
@@ -297,7 +290,7 @@ void Compress(const char *pszInput, const char *pszOutput)
         ERROR("Compress: could not open input file.");
 
     if ((fout = gzopen(pszOutput, "wb")) == NULL) 
-        ERROR("Compress: could create compressed file.");
+        ERROR("Compress: could not create compressed file.");
 
     for (;;)
 	{

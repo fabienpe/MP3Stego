@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{86be5541-0e1b-4f57-a40e-03861a87dc05}</UniqueIdentifier>
+      <Extensions>*.c *.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{74fd225d-e23f-49b7-8880-dbefc56d6e3f}</UniqueIdentifier>
+      <Extensions>*.h *.hpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bitstream.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="fft.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="formatBitstream.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="huffman.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ieeefloat.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="l3bitstream.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="l3loop.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="l3mdct.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="l3psy.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="l3subband.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer3.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="portableio.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="reservoir.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="tables.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="wave.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitstream.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="fft.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="formatbitstream.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="huffman.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ieeefloat.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="l3bitstream.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="l3loop.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="l3mdct.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="l3psy.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="l3subband.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer3.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="portableio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_data.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="reservoir.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqrttab.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tables.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="wave.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\hidden_text.txt" />
+    <Text Include="..\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Encode.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1232fbd0-4096-4d3d-bb13-6cf91b66c71c}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="des.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="des_locl.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="podd.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="sk.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="spr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stego.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="des_enc.c" />
+    <ClCompile Include="ede_enc.c" />
+    <ClCompile Include="error.c" />
+    <ClCompile Include="set_key.c" />
+    <ClCompile Include="sha.c" />
+    <ClCompile Include="stego.c" />
+    <ClCompile Include="tools.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\MP3Stego\README.txt" />
+  </ItemGroup>
+</Project>

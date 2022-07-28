@@ -1,21 +1,10 @@
 /*---------------------------------------------------------------------------
- * FILE			$Workfile: tools.h $ - Part of MP3 Stego
  *
  * AUTHOR		Copyright (c) 1998 - Fabien Petitcolas
- *                                   University of Cambridge
  *
  * PURPOSE		Encryption, compression and pseudo-random number functions for
  *              steganography. Header file.
  *
- * $Modtime: 15/08/98 10:38 $
- * $Revision: 6 $
- * $Header: /StegoLib/tools.h 6     15/08/98 10:38 Fapp2 $
- * $Log: /StegoLib/tools.h $
- * 
- * 6     15/08/98 10:38 Fapp2
- * 
- * 5     15/08/98 10:36 Fapp2
- * Started revision control on this file.
  *---------------------------------------------------------------------------
  */#ifndef _TOOLS_H_
 #define _TOOLS_H_

@@ -1,11 +1,10 @@
 /*--------------------------------------------------------------------
- * MP3Stego - $Workfile: error.c $
  *
  * Contents: Error handling.
  *
  * Purpose:  
  *
- * Created:  Fabien A. P. Petitcolas, fabien22@petitcolas.net
+ * Created:  Fabien A. P. Petitcolas
  *
  * Modified: 
  *
@@ -56,8 +55,6 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  * DAMAGE. 
- *
- * $Header: /StegoLib/error.c 4     19/03/02 10:55 Fabienpe $
  *--------------------------------------------------------------------
  */
 
