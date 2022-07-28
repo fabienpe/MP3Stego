@@ -1,27 +1,65 @@
-/*---------------------------------------------------------------------------
- * FILE			$Workfile: stego.c $ - Part of MP3 Stego
+/*--------------------------------------------------------------------
+ * MP3Stego - $Workfile: stego.c $
  *
- * AUTHOR		Copyright (c) 1998 - Fabien Petitcolas
- *                                   University of Cambridge
+ * Contents: Error handling.
  *
- * PURPOSE		Encryption, compression and pseudo-random number functions for
- *              steganography. Header file.
+ * Purpose:  
  *
- * $Modtime: 9/02/99 21:56 $
- * $Revision: 6 $
- * $Header: /StegoLib/stego.c 6     9/02/99 22:26 Fapp2 $
- * $Log: /StegoLib/stego.c $
- * 
- * 6     9/02/99 22:26 Fapp2
- * Displays estimation of bits that can be hidden.
- * Support for passphrase as command line parameter.
- * 
- * 5     15/08/98 10:38 Fapp2
- * Started revision control on this file.
- * 
- * 5     15/08/98 10:36 Fapp2
- * Started revision control on this file.
- *---------------------------------------------------------------------------
+ * Created:  Fabien A. P. Petitcolas, fabien22@petitcolas.net
+ *
+ * Modified: Encryption, compression and pseudo-random number
+ *           functions for steganography.
+ *
+ * History:
+ *
+ * Copyright (c) 1998, Fabien A. P. Petitcolas.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted for noncommercial research and academic
+ * use only, provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ *   Each individual file must retain its own copyright notice.
+ *
+ * - Redistributions in binary form must reproduce the above copyright
+ *   notice, this list of conditions, the following disclaimer and the
+ *   list of contributors in the documentation and/or other materials
+ *   provided with the distribution.
+ *
+ * - Modification of the program or portion of it is allowed provided
+ *   that the modified files carry prominent notices stating where and
+ *   when they have been changed. If you do modify this program you
+ *   should send to the contributors a general description of the
+ *   changes and send them a copy of your changes at their request. By
+ *   sending any changes to this program to the contributors, you are
+ *   granting a license on such changes under the same terms and
+ *   conditions as provided in this license agreement.  However, the
+ *   contributors are under no obligation to accept your changes.
+ *
+ * - All noncommercial advertising materials mentioning features or
+ *   use of this software must display the following acknowledgement:
+ *
+ *   This product includes software developed by Fabien A. P. Petitcolas
+ *   when he was with the University of Cambridge.
+ *
+ * THIS SOFTWARE IS NOT INTENDED FOR ANY COMMERCIAL APPLICATION AND IS
+ * PROVIDED BY FABIEN A. P. PETITCOLAS `AS IS', WITH ALL FAULTS AND ANY
+ * EXPRESS OR IMPLIED REPRESENTATIONS OR WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NONINFRINGEMENT OF
+ * INTELLECTUAL PROPERTY ARE DISCLAIMED. IN NO EVENT SHALL FABIEN A.
+ * PETITCOLAS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+ * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ * DAMAGE. 
+ *
+ * $Header: /StegoLib/stego.c 9     12/09/02 10:04 Fabienpe $
+ *--------------------------------------------------------------------
  */
 
 #include <stdio.h>
@@ -46,10 +84,12 @@ static size_t nBufferIndex = 0;        /* Byte index within the buffer    */
 static size_t lData = 0;               /* Length of hidden data after     */
                                        /* compression and encryption      */
 
-#if defined(_DEBUG) | defined(DEBUG) /* STEGO */
+/* STEGO */
+#if defined(_DEBUG)
 extern FILE *fLog = NULL;
 extern FILE *fEmbedded = NULL;
-#endif /* STEGO */
+#endif
+/* STEGO */
 
 /*---------------------------------------------------------------------------
  * Open the file that contains the data to be hidden, compress it and
@@ -60,7 +100,7 @@ void StegoOpenEmbeddedText(char *pszFileName, size_t nMaxHiddenBits)
 {
     size_t nEmbed = 0, nDontEmbed = 0, nRandomBits = 0;
 
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
     fEmbedded = fopen("Embedded_bits.txt", "wb");
 #endif
    
@@ -71,7 +111,7 @@ void StegoOpenEmbeddedText(char *pszFileName, size_t nMaxHiddenBits)
     lData = CompressEncryptFile(pszFileName, pszTemp, pszPassPhrase, 1);
 
     GetPseudoRandomBit(RESET);
-    while (nEmbed < (lData * 8))
+    while (nEmbed < ((lData * 8) + 32))
     {
         if (GetPseudoRandomBit(NEXT) == EMBED)
             nEmbed++;
@@ -87,7 +127,7 @@ void StegoOpenEmbeddedText(char *pszFileName, size_t nMaxHiddenBits)
 	if ((fEmbeddedText = fopen(pszTemp, "rb")) == NULL)
         ERROR("StegoOpenEmbeddedText: data file not found.");
 
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
     printf("\n\n");
 #endif
 }
@@ -155,7 +195,7 @@ int StegoGetNextBit()
 					bNeedMoreData = 1;
 			}
 		}
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
        fwrite(&bit, 1, 1, fEmbedded);
 #endif
 		return bit;
@@ -169,7 +209,7 @@ int StegoGetNextBit()
  */
 void StegoCloseEmbeddedText()
 {
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
        fclose(fEmbedded);
 #endif
 
@@ -188,7 +228,7 @@ void StegoCloseEmbeddedText()
  */
 void StegoCreateEmbeddedText()
 {
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
     fEmbedded = fopen("Extracted_bits.txt", "wb");
 #endif
     strcpy(pszPassPhrase, ReadPassPhrase());
@@ -213,7 +253,7 @@ void SaveHiddenBit(int bit)
 
 	if (fEmbeddedText && !bFinished && (GetPseudoRandomBit(NEXT) == EMBED))
 	{
-#if defined(DEBUG) | defined(_DEBUG)
+#if defined(_DEBUG)
         printf("%d", bit);
         fwrite(&bit, 1, 1, fEmbedded);
 #endif
@@ -267,7 +307,7 @@ void SaveHiddenBit(int bit)
  */
 void StegoFlushEmbeddedText(char *pszFileName)
 {
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
        fclose(fEmbedded);
 #endif
 

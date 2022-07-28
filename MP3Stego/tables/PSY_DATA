@@ -1,0 +1,837 @@
+freq = 48000.0 partition = 61 
+No= 0 #lines= 1 minval=24.5 qthr=   4.532 norm=0.970 bval=   0.000
+No= 1 #lines= 1 minval=24.5 qthr=   4.532 norm=0.755 bval=   0.469
+No= 2 #lines= 1 minval=24.5 qthr=   4.532 norm=0.738 bval=   0.938
+No= 3 #lines= 1 minval=24.5 qthr=   0.904 norm=0.730 bval=   1.406
+No= 4 #lines= 1 minval=24.5 qthr=   0.904 norm=0.724 bval=   1.875
+No= 5 #lines= 1 minval=20.0 qthr=   0.090 norm=0.723 bval=   2.344
+No= 6 #lines= 1 minval=20.0 qthr=   0.090 norm=0.723 bval=   2.813
+No= 7 #lines= 1 minval=20.0 qthr=   0.029 norm=0.723 bval=   3.281
+No= 8 #lines= 1 minval=20.0 qthr=   0.029 norm=0.718 bval=   3.750
+No= 9 #lines= 1 minval=20.0 qthr=   0.009 norm=0.690 bval=   4.199
+No=10 #lines= 1 minval=20.0 qthr=   0.009 norm=0.660 bval=   4.625
+No=11 #lines= 1 minval=18.0 qthr=   0.009 norm=0.641 bval=   5.047
+No=12 #lines= 1 minval=18.0 qthr=   0.009 norm=0.600 bval=   5.438
+No=13 #lines= 1 minval=18.0 qthr=   0.009 norm=0.584 bval=   5.828
+No=14 #lines= 1 minval=12.0 qthr=   0.009 norm=0.532 bval=   6.188
+No=15 #lines= 1 minval=12.0 qthr=   0.009 norm=0.537 bval=   6.522
+No=16 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.857 bval=   7.174
+No=17 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.858 bval=   7.801
+No=18 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.853 bval=   8.402
+No=19 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.824 bval=   8.966
+No=20 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.778 bval=   9.484
+No=21 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.740 bval=   9.966
+No=22 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.709 bval=  10.426
+No=23 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.676 bval=  10.866
+No=24 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.632 bval=  11.279
+No=25 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.592 bval=  11.669
+No=26 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.553 bval=  12.042
+No=27 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.510 bval=  12.386
+No=28 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.513 bval=  12.721
+No=29 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.608 bval=  13.115
+No=30 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.673 bval=  13.562
+No=31 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.637 bval=  13.984
+No=32 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.586 bval=  14.371
+No=33 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.571 bval=  14.741
+No=34 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.616 bval=  15.140
+No=35 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.640 bval=  15.563
+No=36 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.598 bval=  15.962
+No=37 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.538 bval=  16.324
+No=38 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.512 bval=  16.665
+No=39 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.528 bval=  17.020
+No=40 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.517 bval=  17.373
+No=41 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.493 bval=  17.708
+No=42 #lines= 6 minval= 0.0 qthr=   0.054 norm=0.499 bval=  18.045
+No=43 #lines= 7 minval= 0.0 qthr=   0.063 norm=0.525 bval=  18.398
+No=44 #lines= 7 minval= 0.0 qthr=   0.063 norm=0.541 bval=  18.762
+No=45 #lines= 8 minval= 0.0 qthr=   0.072 norm=0.528 bval=  19.120
+No=46 #lines= 8 minval= 0.0 qthr=   0.072 norm=0.510 bval=  19.466
+No=47 #lines= 8 minval= 0.0 qthr=   0.072 norm=0.506 bval=  19.807
+No=48 #lines=10 minval= 0.0 qthr=   0.180 norm=0.525 bval=  20.159
+No=49 #lines=10 minval= 0.0 qthr=   0.180 norm=0.536 bval=  20.522
+No=50 #lines=10 minval= 0.0 qthr=   0.180 norm=0.518 bval=  20.874
+No=51 #lines=13 minval= 0.0 qthr=   0.372 norm=0.501 bval=  21.214
+No=52 #lines=13 minval= 0.0 qthr=   0.372 norm=0.497 bval=  21.553
+No=53 #lines=14 minval= 0.0 qthr=   0.400 norm=0.497 bval=  21.892
+No=54 #lines=18 minval= 0.0 qthr=   1.627 norm=0.495 bval=  22.231
+No=55 #lines=18 minval= 0.0 qthr=   1.627 norm=0.494 bval=  22.569
+No=56 #lines=20 minval= 0.0 qthr=   1.808 norm=0.497 bval=  22.909
+No=57 #lines=25 minval= 0.0 qthr=  22.607 norm=0.494 bval=  23.248
+No=58 #lines=25 minval= 0.0 qthr=  22.607 norm=0.487 bval=  23.583
+No=59 #lines=35 minval= 0.0 qthr=  31.650 norm=0.483 bval=  23.915
+No=60 #lines=67 minval= 0.0 qthr= 605.867 norm=0.482 bval=  24.246
+No=61 #lines=67 minval= 0.0 qthr= 605.867 norm=0.524 bval=  24.576
+freq = 44100.0 partition = 62 
+No= 0 #lines= 1 minval=24.5 qthr=   4.532 norm=0.951 bval=   0.000
+No= 1 #lines= 1 minval=24.5 qthr=   4.532 norm=0.700 bval=   0.431
+No= 2 #lines= 1 minval=24.5 qthr=   4.532 norm=0.681 bval=   0.861
+No= 3 #lines= 1 minval=24.5 qthr=   0.904 norm=0.675 bval=   1.292
+No= 4 #lines= 1 minval=24.5 qthr=   0.904 norm=0.667 bval=   1.723
+No= 5 #lines= 1 minval=20.0 qthr=   0.090 norm=0.665 bval=   2.153
+No= 6 #lines= 1 minval=20.0 qthr=   0.090 norm=0.664 bval=   2.584
+No= 7 #lines= 1 minval=20.0 qthr=   0.029 norm=0.664 bval=   3.015
+No= 8 #lines= 1 minval=20.0 qthr=   0.029 norm=0.664 bval=   3.445
+No= 9 #lines= 1 minval=20.0 qthr=   0.029 norm=0.655 bval=   3.876
+No=10 #lines= 1 minval=20.0 qthr=   0.009 norm=0.616 bval=   4.279
+No=11 #lines= 1 minval=20.0 qthr=   0.009 norm=0.597 bval=   4.670
+No=12 #lines= 1 minval=18.0 qthr=   0.009 norm=0.578 bval=   5.057
+No=13 #lines= 1 minval=18.0 qthr=   0.009 norm=0.541 bval=   5.416
+No=14 #lines= 1 minval=18.0 qthr=   0.009 norm=0.575 bval=   5.774
+No=15 #lines= 2 minval=12.0 qthr=   0.018 norm=0.856 bval=   6.422
+No=16 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.846 bval=   7.026
+No=17 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.840 bval=   7.609
+No=18 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.822 bval=   8.168
+No=19 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.800 bval=   8.710
+No=20 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.753 bval=   9.207
+No=21 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.704 bval=   9.662
+No=22 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.674 bval=  10.099
+No=23 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.640 bval=  10.515
+No=24 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.609 bval=  10.917
+No=25 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.566 bval=  11.293
+No=26 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.535 bval=  11.652
+No=27 #lines= 2 minval= 0.0 qthr=   0.018 norm=0.531 bval=  11.997
+No=28 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.615 bval=  12.394
+No=29 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.686 bval=  12.850
+No=30 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.650 bval=  13.277
+No=31 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.612 bval=  13.681
+No=32 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.567 bval=  14.062
+No=33 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.520 bval=  14.411
+No=34 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.513 bval=  14.751
+No=35 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.557 bval=  15.119
+No=36 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.584 bval=  15.508
+No=37 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.570 bval=  15.883
+No=38 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.579 bval=  16.263
+No=39 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.585 bval=  16.654
+No=40 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.548 bval=  17.020
+No=41 #lines= 6 minval= 0.0 qthr=   0.054 norm=0.536 bval=  17.374
+No=42 #lines= 6 minval= 0.0 qthr=   0.054 norm=0.550 bval=  17.744
+No=43 #lines= 7 minval= 0.0 qthr=   0.063 norm=0.532 bval=  18.104
+No=44 #lines= 7 minval= 0.0 qthr=   0.063 norm=0.504 bval=  18.447
+No=45 #lines= 7 minval= 0.0 qthr=   0.063 norm=0.496 bval=  18.782
+No=46 #lines= 9 minval= 0.0 qthr=   0.081 norm=0.517 bval=  19.130
+No=47 #lines= 9 minval= 0.0 qthr=   0.081 norm=0.527 bval=  19.487
+No=48 #lines= 9 minval= 0.0 qthr=   0.081 norm=0.516 bval=  19.838
+No=49 #lines=10 minval= 0.0 qthr=   0.180 norm=0.497 bval=  20.179
+No=50 #lines=10 minval= 0.0 qthr=   0.180 norm=0.489 bval=  20.510
+No=51 #lines=11 minval= 0.0 qthr=   0.198 norm=0.502 bval=  20.852
+No=52 #lines=14 minval= 0.0 qthr=   0.400 norm=0.501 bval=  21.196
+No=53 #lines=14 minval= 0.0 qthr=   0.400 norm=0.491 bval=  21.531
+No=54 #lines=15 minval= 0.0 qthr=   0.429 norm=0.497 bval=  21.870
+No=55 #lines=20 minval= 0.0 qthr=   1.808 norm=0.504 bval=  22.214
+No=56 #lines=20 minval= 0.0 qthr=   1.808 norm=0.504 bval=  22.558
+No=57 #lines=21 minval= 0.0 qthr=   1.898 norm=0.495 bval=  22.898
+No=58 #lines=27 minval= 0.0 qthr=  24.416 norm=0.486 bval=  23.232
+No=59 #lines=27 minval= 0.0 qthr=  24.416 norm=0.484 bval=  23.564
+No=60 #lines=36 minval= 0.0 qthr=  32.554 norm=0.483 bval=  23.897
+No=61 #lines=73 minval= 0.0 qthr= 660.124 norm=0.475 bval=  24.229
+No=62 #lines=18 minval= 0.0 qthr= 162.770 norm=0.515 bval=  24.442
+freq = 32000.0 partition = 58 
+No= 0 #lines= 2 minval=24.5 qthr=   4.532 norm=0.997 bval=   0.313
+No= 1 #lines= 2 minval=24.5 qthr=   4.532 norm=0.893 bval=   0.938
+No= 2 #lines= 2 minval=24.5 qthr=   1.809 norm=0.881 bval=   1.563
+No= 3 #lines= 2 minval=20.0 qthr=   0.181 norm=0.873 bval=   2.188
+No= 4 #lines= 2 minval=20.0 qthr=   0.181 norm=0.872 bval=   2.813
+No= 5 #lines= 2 minval=20.0 qthr=   0.057 norm=0.871 bval=   3.438
+No= 6 #lines= 2 minval=20.0 qthr=   0.018 norm=0.860 bval=   4.045
+No= 7 #lines= 2 minval=20.0 qthr=   0.018 norm=0.839 bval=   4.625
+No= 8 #lines= 2 minval=18.0 qthr=   0.018 norm=0.812 bval=   5.173
+No= 9 #lines= 2 minval=18.0 qthr=   0.018 norm=0.784 bval=   5.698
+No=10 #lines= 2 minval=12.0 qthr=   0.018 norm=0.741 bval=   6.185
+No=11 #lines= 2 minval=12.0 qthr=   0.018 norm=0.697 bval=   6.634
+No=12 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.674 bval=   7.070
+No=13 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.651 bval=   7.492
+No=14 #lines= 2 minval= 6.0 qthr=   0.018 norm=0.633 bval=   7.905
+No=15 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.611 bval=   8.305
+No=16 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.589 bval=   8.695
+No=17 #lines= 2 minval= 3.0 qthr=   0.018 norm=0.575 bval=   9.064
+No=18 #lines= 3 minval= 3.0 qthr=   0.027 norm=0.654 bval=   9.484
+No=19 #lines= 3 minval= 3.0 qthr=   0.027 norm=0.724 bval=   9.966
+No=20 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.701 bval=  10.426
+No=21 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.673 bval=  10.866
+No=22 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.631 bval=  11.279
+No=23 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.592 bval=  11.669
+No=24 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.553 bval=  12.042
+No=25 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.510 bval=  12.386
+No=26 #lines= 3 minval= 0.0 qthr=   0.027 norm=0.506 bval=  12.721
+No=27 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.562 bval=  13.091
+No=28 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.598 bval=  13.488
+No=29 #lines= 4 minval= 0.0 qthr=   0.036 norm=0.589 bval=  13.873
+No=30 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.607 bval=  14.268
+No=31 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.620 bval=  14.679
+No=32 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.580 bval=  15.067
+No=33 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.532 bval=  15.424
+No=34 #lines= 5 minval= 0.0 qthr=   0.045 norm=0.517 bval=  15.771
+No=35 #lines= 6 minval= 0.0 qthr=   0.054 norm=0.517 bval=  16.120
+No=36 #lines= 6 minval= 0.0 qthr=   0.054 norm=0.509 bval=  16.466
+No=37 #lines= 6 minval= 0.0 qthr=   0.054 norm=0.506 bval=  16.807
+No=38 #lines= 8 minval= 0.0 qthr=   0.072 norm=0.522 bval=  17.158
+No=39 #lines= 8 minval= 0.0 qthr=   0.072 norm=0.531 bval=  17.518
+No=40 #lines= 8 minval= 0.0 qthr=   0.072 norm=0.519 bval=  17.869
+No=41 #lines=10 minval= 0.0 qthr=   0.090 norm=0.512 bval=  18.215
+No=42 #lines=10 minval= 0.0 qthr=   0.090 norm=0.509 bval=  18.563
+No=43 #lines=10 minval= 0.0 qthr=   0.090 norm=0.498 bval=  18.902
+No=44 #lines=12 minval= 0.0 qthr=   0.109 norm=0.494 bval=  19.239
+No=45 #lines=12 minval= 0.0 qthr=   0.109 norm=0.501 bval=  19.580
+No=46 #lines=13 minval= 0.0 qthr=   0.118 norm=0.508 bval=  19.925
+No=47 #lines=14 minval= 0.0 qthr=   0.252 norm=0.502 bval=  20.269
+No=48 #lines=14 minval= 0.0 qthr=   0.252 norm=0.493 bval=  20.606
+No=49 #lines=16 minval= 0.0 qthr=   0.288 norm=0.497 bval=  20.944
+No=50 #lines=20 minval= 0.0 qthr=   0.572 norm=0.506 bval=  21.288
+No=51 #lines=20 minval= 0.0 qthr=   0.572 norm=0.510 bval=  21.635
+No=52 #lines=23 minval= 0.0 qthr=   0.658 norm=0.504 bval=  21.980
+No=53 #lines=27 minval= 0.0 qthr=   2.441 norm=0.496 bval=  22.319
+No=54 #lines=27 minval= 0.0 qthr=   2.441 norm=0.493 bval=  22.656
+No=55 #lines=32 minval= 0.0 qthr=   2.893 norm=0.490 bval=  22.993
+No=56 #lines=37 minval= 0.0 qthr=  33.458 norm=0.482 bval=  23.326
+No=57 #lines=37 minval= 0.0 qthr=  33.458 norm=0.458 bval=  23.656
+No=58 #lines=12 minval= 0.0 qthr=  10.851 norm=0.500 bval=  23.937
+freq = 24000 partition = 59
+No=0 #lines= 2 minval= 15 qthr= 17.8250179 norm=0.697374165 bval= 0.236874461
+No=1 #lines= 2 minval= 15 qthr= 17.8250179 norm=0.455024809 bval= 0.71016103
+No=2 #lines= 2 minval= 15 qthr= 1.78250182 norm=0.431440443 bval= 1.18193281
+No=3 #lines= 2 minval= 15 qthr= 1.78250182 norm=0.42391625 bval= 1.65102732
+No=4 #lines= 2 minval= 13 qthr= 0.178250194 norm=0.418206781 bval= 2.11632562
+No=5 #lines= 2 minval= 13 qthr= 0.178250194 norm=0.41158545 bval= 2.57676744
+No=6 #lines= 2 minval= 13 qthr= 0.0563676581 norm=0.405409157 bval= 3.03136396
+No=7 #lines= 2 minval= 13 qthr= 0.0563676581 norm=0.399695486 bval= 3.47920918
+No=8 #lines= 2 minval= 13 qthr= 0.0563676581 norm=0.393753231 bval= 3.91948748
+No=9 #lines= 2 minval= 12 qthr= 0.0178250186 norm=0.387357473 bval= 4.35147953
+No=10 #lines= 2 minval= 12 qthr= 0.0178250186 norm=0.38045457 bval= 4.77456427
+No=11 #lines= 2 minval= 10 qthr= 0.0178250186 norm=0.373053908 bval= 5.18822002
+No=12 #lines= 2 minval= 10 qthr= 0.0178250186 norm=0.365188122 bval= 5.59202194
+No=13 #lines= 2 minval= 10 qthr= 0.0178250186 norm=0.356897771 bval= 5.98564005
+No=14 #lines= 2 minval= 9 qthr= 0.0178250186 norm=0.348700613 bval= 6.36883163
+No=15 #lines= 2 minval= 9 qthr= 0.0178250186 norm=0.340260029 bval= 6.74143791
+No=16 #lines= 2 minval= 6 qthr= 0.0178250186 norm=0.332341045 bval= 7.10337448
+No=17 #lines= 2 minval= 6 qthr= 0.0178250186 norm=0.330462843 bval= 7.45462418
+No=18 #lines= 2 minval= 6 qthr= 0.0178250186 norm=0.345568359 bval= 7.79523182
+No=19 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.377859652 bval= 8.20455742
+No=20 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.396689415 bval= 8.67640114
+No=21 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.391237885 bval= 9.12561035
+No=22 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.37761277 bval= 9.55298138
+No=23 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.362836808 bval= 9.95940971
+No=24 #lines= 3 minval= 0 qthr= 0.0267375279 norm=0.349010617 bval= 10.3458519
+No=25 #lines= 3 minval= 0 qthr= 0.0267375279 norm=0.339673489 bval= 10.7132998
+No=26 #lines= 3 minval= 0 qthr= 0.0267375279 norm=0.343845725 bval= 11.0627575
+No=27 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.355822682 bval= 11.447506
+No=28 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.358104348 bval= 11.8627586
+No=29 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.34745428 bval= 12.2520256
+No=30 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.334927917 bval= 12.6173973
+No=31 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.331643254 bval= 12.9608269
+No=32 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.333368897 bval= 13.3219252
+No=33 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.332313001 bval= 13.6976833
+No=34 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.3314417 bval= 14.047802
+No=35 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.330947191 bval= 14.405302
+No=36 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.332477689 bval= 14.7684803
+No=37 #lines= 7 minval= 0 qthr= 0.062387567 norm=0.332647532 bval= 15.1315956
+No=38 #lines= 7 minval= 0 qthr= 0.062387567 norm=0.330841452 bval= 15.4940481
+No=39 #lines= 8 minval= 0 qthr= 0.0713000745 norm=0.327769846 bval= 15.8516159
+No=40 #lines= 8 minval= 0 qthr= 0.0713000745 norm=0.324572712 bval= 16.204628
+No=41 #lines= 9 minval= 0 qthr= 0.0802125856 norm=0.323825002 bval= 16.5502281
+No=42 #lines= 10 minval= 0 qthr= 0.0891250968 norm=0.321414798 bval= 16.9067478
+No=43 #lines= 10 minval= 0 qthr= 0.0891250968 norm=0.318189293 bval= 17.2537231
+No=44 #lines= 11 minval= 0 qthr= 0.0980376005 norm=0.315934151 bval= 17.5901108
+No=45 #lines= 12 minval= 0 qthr= 0.106950112 norm=0.315639287 bval= 17.931406
+No=46 #lines= 13 minval= 0 qthr= 0.115862623 norm=0.316569835 bval= 18.2750721
+No=47 #lines= 14 minval= 0 qthr= 0.124775134 norm=0.31656 bval= 18.6191597
+No=48 #lines= 15 minval= 0 qthr= 0.133687645 norm=0.315465957 bval= 18.9621754
+No=49 #lines= 16 minval= 0 qthr= 0.142600149 norm=0.313576341 bval= 19.3029613
+No=50 #lines= 17 minval= 0 qthr= 0.151512653 norm=0.311635971 bval= 19.6405869
+No=51 #lines= 18 minval= 0 qthr= 0.160425171 norm=0.311066717 bval= 19.9742699
+No=52 #lines= 20 minval= 0 qthr= 0.355655879 norm=0.311465651 bval= 20.3115921
+No=53 #lines= 21 minval= 0 qthr= 0.373438686 norm=0.311872005 bval= 20.6507797
+No=54 #lines= 23 minval= 0 qthr= 0.409004271 norm=0.311015964 bval= 20.9890823
+No=55 #lines= 24 minval= 0 qthr= 0.676411927 norm=0.309207708 bval= 21.3251152
+No=56 #lines= 26 minval= 0 qthr= 0.732779562 norm=0.3081128 bval= 21.6565971
+No=57 #lines= 28 minval= 0 qthr= 0.789147198 norm=0.310006589 bval= 21.9881554
+No=58 #lines= 31 minval= 0 qthr= 2.76287794 norm=0.327113092 bval= 22.3222847
+No=59 #lines= 34 minval= 0 qthr= 3.03025317 norm=0.416082352 bval= 22.6605186
+freq = 22050 partition = 59
+No=0 #lines= 2 minval= 15 qthr= 17.8250179 norm=0.658683598 bval= 0.217637643
+No=1 #lines= 2 minval= 15 qthr= 17.8250179 norm=0.432554901 bval= 0.652563453
+No=2 #lines= 2 minval= 15 qthr= 1.78250182 norm=0.405113578 bval= 1.08633137
+No=3 #lines= 2 minval= 15 qthr= 1.78250182 norm=0.397231787 bval= 1.51803517
+No=4 #lines= 2 minval= 15 qthr= 1.78250182 norm=0.392088681 bval= 1.94679713
+No=5 #lines= 2 minval= 13 qthr= 0.178250194 norm=0.386788279 bval= 2.37177849
+No=6 #lines= 2 minval= 13 qthr= 0.178250194 norm=0.380574644 bval= 2.79218864
+No=7 #lines= 2 minval= 13 qthr= 0.0563676581 norm=0.375309765 bval= 3.20729256
+No=8 #lines= 2 minval= 13 qthr= 0.0563676581 norm=0.370087624 bval= 3.61641645
+No=9 #lines= 2 minval= 12 qthr= 0.0178250186 norm=0.364568561 bval= 4.01895428
+No=10 #lines= 2 minval= 12 qthr= 0.0178250186 norm=0.358959526 bval= 4.4143672
+No=11 #lines= 2 minval= 12 qthr= 0.0178250186 norm=0.352938265 bval= 4.80218887
+No=12 #lines= 2 minval= 10 qthr= 0.0178250186 norm=0.3465029 bval= 5.18202305
+No=13 #lines= 2 minval= 10 qthr= 0.0178250186 norm=0.33968094 bval= 5.55354261
+No=14 #lines= 2 minval= 10 qthr= 0.0178250186 norm=0.332571507 bval= 5.91648674
+No=15 #lines= 2 minval= 9 qthr= 0.0178250186 norm=0.326015651 bval= 6.27065945
+No=16 #lines= 2 minval= 9 qthr= 0.0178250186 norm=0.325442046 bval= 6.61592293
+No=17 #lines= 2 minval= 9 qthr= 0.0178250186 norm=0.341315031 bval= 6.95219517
+No=18 #lines= 3 minval= 6 qthr= 0.0267375279 norm=0.374984443 bval= 7.3584404
+No=19 #lines= 3 minval= 6 qthr= 0.0267375279 norm=0.396138102 bval= 7.8290925
+No=20 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.39271906 bval= 8.27975655
+No=21 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.380755007 bval= 8.71083069
+No=22 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.367386311 bval= 9.12284088
+No=23 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.354351997 bval= 9.51640987
+No=24 #lines= 3 minval= 3 qthr= 0.0267375279 norm=0.341508389 bval= 9.89222908
+No=25 #lines= 3 minval= 0 qthr= 0.0267375279 norm=0.333577901 bval= 10.2510386
+No=26 #lines= 3 minval= 0 qthr= 0.0267375279 norm=0.338108748 bval= 10.5936022
+No=27 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.350744486 bval= 10.9723492
+No=28 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.354519457 bval= 11.38272
+No=29 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.345274031 bval= 11.7689981
+No=30 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.333828837 bval= 12.1329184
+No=31 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.331436664 bval= 12.4761295
+No=32 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.334172577 bval= 12.8381901
+No=33 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.334024847 bval= 13.2160273
+No=34 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.33392629 bval= 13.5690479
+No=35 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.334218502 bval= 13.9303951
+No=36 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.336405039 bval= 14.298193
+No=37 #lines= 7 minval= 0 qthr= 0.062387567 norm=0.337080389 bval= 14.666563
+No=38 #lines= 7 minval= 0 qthr= 0.062387567 norm=0.335603535 bval= 15.0346909
+No=39 #lines= 8 minval= 0 qthr= 0.0713000745 norm=0.332515866 bval= 15.398139
+No=40 #lines= 8 minval= 0 qthr= 0.0713000745 norm=0.327727586 bval= 15.7570457
+No=41 #lines= 9 minval= 0 qthr= 0.0802125856 norm=0.322346836 bval= 16.1083431
+No=42 #lines= 9 minval= 0 qthr= 0.0802125856 norm=0.317575186 bval= 16.4528522
+No=43 #lines= 10 minval= 0 qthr= 0.0891250968 norm=0.31632933 bval= 16.7886105
+No=44 #lines= 11 minval= 0 qthr= 0.0980376005 norm=0.317602783 bval= 17.132
+No=45 #lines= 12 minval= 0 qthr= 0.106950112 norm=0.319945186 bval= 17.4796028
+No=46 #lines= 13 minval= 0 qthr= 0.115862623 norm=0.320881754 bval= 17.8287659
+No=47 #lines= 14 minval= 0 qthr= 0.124775134 norm=0.320346534 bval= 18.1774921
+No=48 #lines= 15 minval= 0 qthr= 0.133687645 norm=0.318628669 bval= 18.5243168
+No=49 #lines= 16 minval= 0 qthr= 0.142600149 norm=0.316125751 bval= 18.8681736
+No=50 #lines= 17 minval= 0 qthr= 0.151512653 norm=0.313746184 bval= 19.2082729
+No=51 #lines= 18 minval= 0 qthr= 0.160425171 norm=0.312971771 bval= 19.5440025
+No=52 #lines= 20 minval= 0 qthr= 0.178250194 norm=0.313278913 bval= 19.8831882
+No=53 #lines= 21 minval= 0 qthr= 0.373438686 norm=0.313735574 bval= 20.224247
+No=54 #lines= 23 minval= 0 qthr= 0.409004271 norm=0.31308493 bval= 20.5646286
+No=55 #lines= 24 minval= 0 qthr= 0.426787049 norm=0.31156227 bval= 20.903141
+No=56 #lines= 26 minval= 0 qthr= 0.732779562 norm=0.310435742 bval= 21.2376747
+No=57 #lines= 28 minval= 0 qthr= 0.789147198 norm=0.31132248 bval= 21.5730591
+No=58 #lines= 30 minval= 0 qthr= 0.845514894 norm=0.32730341 bval= 21.9066811
+No=59 #lines= 33 minval= 0 qthr= 2.94112802 norm=0.414659739 bval= 22.2411156
+freq = 16000 partition = 55
+No=0 #lines= 3 minval= 15 qthr= 26.7375278 norm=0.697374165 bval= 0.236874461
+No=1 #lines= 3 minval= 15 qthr= 26.7375278 norm=0.455024809 bval= 0.71016103
+No=2 #lines= 3 minval= 15 qthr= 2.67375278 norm=0.431440443 bval= 1.18193281
+No=3 #lines= 3 minval= 15 qthr= 2.67375278 norm=0.42391625 bval= 1.65102732
+No=4 #lines= 3 minval= 13 qthr= 0.26737529 norm=0.418206781 bval= 2.11632562
+No=5 #lines= 3 minval= 13 qthr= 0.26737529 norm=0.41158545 bval= 2.57676744
+No=6 #lines= 3 minval= 13 qthr= 0.0845514908 norm=0.405409157 bval= 3.03136396
+No=7 #lines= 3 minval= 13 qthr= 0.0845514908 norm=0.399695486 bval= 3.47920918
+No=8 #lines= 3 minval= 13 qthr= 0.0845514908 norm=0.393753231 bval= 3.91948748
+No=9 #lines= 3 minval= 12 qthr= 0.0267375279 norm=0.387357473 bval= 4.35147953
+No=10 #lines= 3 minval= 12 qthr= 0.0267375279 norm=0.38045457 bval= 4.77456427
+No=11 #lines= 3 minval= 10 qthr= 0.0267375279 norm=0.373053908 bval= 5.18822002
+No=12 #lines= 3 minval= 10 qthr= 0.0267375279 norm=0.365188122 bval= 5.59202194
+No=13 #lines= 3 minval= 10 qthr= 0.0267375279 norm=0.356897742 bval= 5.98564005
+No=14 #lines= 3 minval= 9 qthr= 0.0267375279 norm=0.34869957 bval= 6.36883163
+No=15 #lines= 3 minval= 9 qthr= 0.0267375279 norm=0.340241522 bval= 6.74143791
+No=16 #lines= 3 minval= 6 qthr= 0.0267375279 norm=0.332089454 bval= 7.10337448
+No=17 #lines= 3 minval= 6 qthr= 0.0267375279 norm=0.328292668 bval= 7.45462418
+No=18 #lines= 3 minval= 6 qthr= 0.0267375279 norm=0.336574793 bval= 7.79523182
+No=19 #lines= 4 minval= 3 qthr= 0.0356500372 norm=0.354600489 bval= 8.17827797
+No=20 #lines= 4 minval= 3 qthr= 0.0356500372 norm=0.364343345 bval= 8.59994984
+No=21 #lines= 4 minval= 3 qthr= 0.0356500372 norm=0.359369367 bval= 9.00363636
+No=22 #lines= 4 minval= 3 qthr= 0.0356500372 norm=0.347775847 bval= 9.38988018
+No=23 #lines= 4 minval= 3 qthr= 0.0356500372 norm=0.335562587 bval= 9.7592926
+No=24 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.326988578 bval= 10.1125278
+No=25 #lines= 4 minval= 0 qthr= 0.0356500372 norm=0.327966213 bval= 10.4502735
+No=26 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.334450752 bval= 10.811614
+No=27 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.335228145 bval= 11.1935263
+No=28 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.329595625 bval= 11.5549288
+No=29 #lines= 5 minval= 0 qthr= 0.0445625484 norm=0.326683223 bval= 11.8971443
+No=30 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.326986551 bval= 12.2520256
+No=31 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.325072199 bval= 12.6173973
+No=32 #lines= 6 minval= 0 qthr= 0.0534750558 norm=0.323560268 bval= 12.9608269
+No=33 #lines= 7 minval= 0 qthr= 0.062387567 norm=0.322494298 bval= 13.3093863
+No=34 #lines= 7 minval= 0 qthr= 0.062387567 norm=0.323403448 bval= 13.6617231
+No=35 #lines= 8 minval= 0 qthr= 0.0713000745 norm=0.323232353 bval= 14.0134668
+No=36 #lines= 8 minval= 0 qthr= 0.0713000745 norm=0.322662383 bval= 14.3639784
+No=37 #lines= 9 minval= 0 qthr= 0.0802125856 norm=0.324054241 bval= 14.7098465
+No=38 #lines= 10 minval= 0 qthr= 0.0891250968 norm=0.323228806 bval= 15.0686541
+No=39 #lines= 10 minval= 0 qthr= 0.0891250968 norm=0.320751846 bval= 15.4191036
+No=40 #lines= 11 minval= 0 qthr= 0.0980376005 norm=0.318823338 bval= 15.7594051
+No=41 #lines= 12 minval= 0 qthr= 0.106950112 norm=0.318418682 bval= 16.104557
+No=42 #lines= 13 minval= 0 qthr= 0.115862623 norm=0.318762124 bval= 16.451416
+No=43 #lines= 14 minval= 0 qthr= 0.124775134 norm=0.317806393 bval= 16.7975388
+No=44 #lines= 15 minval= 0 qthr= 0.133687645 norm=0.315653771 bval= 17.1411018
+No=45 #lines= 16 minval= 0 qthr= 0.142600149 norm=0.313369036 bval= 17.4808159
+No=46 #lines= 17 minval= 0 qthr= 0.151512653 norm=0.312513858 bval= 17.8158207
+No=47 #lines= 19 minval= 0 qthr= 0.169337675 norm=0.312785119 bval= 18.1543369
+No=48 #lines= 20 minval= 0 qthr= 0.178250194 norm=0.31343773 bval= 18.4948578
+No=49 #lines= 22 minval= 0 qthr= 0.196075201 norm=0.313258767 bval= 18.8350143
+No=50 #lines= 23 minval= 0 qthr= 0.20498772 norm=0.312570423 bval= 19.1740704
+No=51 #lines= 25 minval= 0 qthr= 0.222812727 norm=0.312572777 bval= 19.5104179
+No=52 #lines= 27 minval= 0 qthr= 0.240637749 norm=0.313047856 bval= 19.8497677
+No=53 #lines= 29 minval= 0 qthr= 0.515701056 norm=0.315029174 bval= 20.1900635
+No=54 #lines= 31 minval= 0 qthr= 0.551266611 norm=0.330613613 bval= 20.5294952
+No=55 #lines= 33 minval= 0 qthr= 0.586832225 norm=0.41819948 bval= 20.8664398
+freq = 48000.0 partition = 37 
+No= 0 #lines= 1 qthr=   4.532 norm=1.000 SNR=-8.240 bval=   0.000
+No= 1 #lines= 1 qthr=   0.904 norm=0.989 SNR=-8.240 bval=   1.875
+No= 2 #lines= 1 qthr=   0.029 norm=0.989 SNR=-8.240 bval=   3.750
+No= 3 #lines= 1 qthr=   0.009 norm=0.981 SNR=-8.240 bval=   5.438
+No= 4 #lines= 1 qthr=   0.009 norm=0.985 SNR=-8.240 bval=   6.857
+No= 5 #lines= 1 qthr=   0.009 norm=0.984 SNR=-8.240 bval=   8.109
+No= 6 #lines= 1 qthr=   0.009 norm=0.980 SNR=-8.240 bval=   9.237
+No= 7 #lines= 1 qthr=   0.009 norm=0.968 SNR=-8.240 bval=  10.202
+No= 8 #lines= 1 qthr=   0.009 norm=0.954 SNR=-8.240 bval=  11.083
+No= 9 #lines= 1 qthr=   0.009 norm=0.929 SNR=-8.240 bval=  11.865
+No=10 #lines= 1 qthr=   0.009 norm=0.906 SNR=-7.447 bval=  12.554
+No=11 #lines= 1 qthr=   0.009 norm=0.883 SNR=-7.447 bval=  13.195
+No=12 #lines= 1 qthr=   0.009 norm=0.844 SNR=-7.447 bval=  13.781
+No=13 #lines= 1 qthr=   0.009 norm=0.792 SNR=-7.447 bval=  14.309
+No=14 #lines= 1 qthr=   0.009 norm=0.747 SNR=-7.447 bval=  14.803
+No=15 #lines= 1 qthr=   0.009 norm=0.689 SNR=-7.447 bval=  15.250
+No=16 #lines= 1 qthr=   0.009 norm=0.644 SNR=-7.447 bval=  15.667
+No=17 #lines= 1 qthr=   0.009 norm=0.592 SNR=-7.447 bval=  16.068
+No=18 #lines= 1 qthr=   0.009 norm=0.553 SNR=-7.447 bval=  16.409
+No=19 #lines= 2 qthr=   0.018 norm=0.850 SNR=-7.447 bval=  17.045
+No=20 #lines= 2 qthr=   0.018 norm=0.811 SNR=-6.990 bval=  17.607
+No=21 #lines= 2 qthr=   0.018 norm=0.736 SNR=-6.990 bval=  18.097
+No=22 #lines= 2 qthr=   0.018 norm=0.665 SNR=-6.990 bval=  18.528
+No=23 #lines= 2 qthr=   0.018 norm=0.610 SNR=-6.990 bval=  18.931
+No=24 #lines= 2 qthr=   0.018 norm=0.544 SNR=-6.990 bval=  19.295
+No=25 #lines= 2 qthr=   0.018 norm=0.528 SNR=-6.990 bval=  19.636
+No=26 #lines= 3 qthr=   0.054 norm=0.621 SNR=-6.990 bval=  20.038
+No=27 #lines= 3 qthr=   0.054 norm=0.673 SNR=-6.990 bval=  20.486
+No=28 #lines= 3 qthr=   0.054 norm=0.635 SNR=-6.990 bval=  20.900
+No=29 #lines= 4 qthr=   0.114 norm=0.626 SNR=-6.990 bval=  21.306
+No=30 #lines= 4 qthr=   0.114 norm=0.636 SNR=-6.020 bval=  21.722
+No=31 #lines= 5 qthr=   0.452 norm=0.615 SNR=-6.020 bval=  22.128
+No=32 #lines= 5 qthr=   0.452 norm=0.579 SNR=-6.020 bval=  22.513
+No=33 #lines= 5 qthr=   0.452 norm=0.551 SNR=-6.020 bval=  22.877
+No=34 #lines= 7 qthr=   6.330 norm=0.552 SNR=-5.229 bval=  23.241
+No=35 #lines= 7 qthr=   6.330 norm=0.559 SNR=-5.229 bval=  23.616
+No=36 #lines=11 qthr=   9.947 norm=0.528 SNR=-5.229 bval=  23.974
+No=37 #lines=17 qthr= 153.727 norm=0.479 SNR=-5.229 bval=  24.313
+freq = 44100.0 partition = 38 
+No= 0 #lines= 1 qthr=   4.532 norm=1.000 SNR=-8.240 bval=   0.000
+No= 1 #lines= 1 qthr=   0.904 norm=0.983 SNR=-8.240 bval=   1.723
+No= 2 #lines= 1 qthr=   0.029 norm=0.983 SNR=-8.240 bval=   3.445
+No= 3 #lines= 1 qthr=   0.009 norm=0.982 SNR=-8.240 bval=   5.057
+No= 4 #lines= 1 qthr=   0.009 norm=0.985 SNR=-8.240 bval=   6.422
+No= 5 #lines= 1 qthr=   0.009 norm=0.983 SNR=-8.240 bval=   7.609
+No= 6 #lines= 1 qthr=   0.009 norm=0.978 SNR=-8.240 bval=   8.710
+No= 7 #lines= 1 qthr=   0.009 norm=0.967 SNR=-8.240 bval=   9.662
+No= 8 #lines= 1 qthr=   0.009 norm=0.948 SNR=-8.240 bval=  10.515
+No= 9 #lines= 1 qthr=   0.009 norm=0.930 SNR=-8.240 bval=  11.293
+No=10 #lines= 1 qthr=   0.009 norm=0.914 SNR=-7.447 bval=  12.009
+No=11 #lines= 1 qthr=   0.009 norm=0.870 SNR=-7.447 bval=  12.625
+No=12 #lines= 1 qthr=   0.009 norm=0.845 SNR=-7.447 bval=  13.210
+No=13 #lines= 1 qthr=   0.009 norm=0.800 SNR=-7.447 bval=  13.748
+No=14 #lines= 1 qthr=   0.009 norm=0.749 SNR=-7.447 bval=  14.241
+No=15 #lines= 1 qthr=   0.009 norm=0.701 SNR=-7.447 bval=  14.695
+No=16 #lines= 1 qthr=   0.009 norm=0.653 SNR=-7.447 bval=  15.125
+No=17 #lines= 1 qthr=   0.009 norm=0.590 SNR=-7.447 bval=  15.508
+No=18 #lines= 1 qthr=   0.009 norm=0.616 SNR=-7.447 bval=  15.891
+No=19 #lines= 2 qthr=   0.018 norm=0.860 SNR=-7.447 bval=  16.537
+No=20 #lines= 2 qthr=   0.018 norm=0.823 SNR=-6.990 bval=  17.112
+No=21 #lines= 2 qthr=   0.018 norm=0.762 SNR=-6.990 bval=  17.621
+No=22 #lines= 2 qthr=   0.018 norm=0.688 SNR=-6.990 bval=  18.073
+No=23 #lines= 2 qthr=   0.018 norm=0.612 SNR=-6.990 bval=  18.470
+No=24 #lines= 2 qthr=   0.018 norm=0.594 SNR=-6.990 bval=  18.849
+No=25 #lines= 3 qthr=   0.027 norm=0.658 SNR=-6.990 bval=  19.271
+No=26 #lines= 3 qthr=   0.027 norm=0.706 SNR=-6.990 bval=  19.741
+No=27 #lines= 3 qthr=   0.054 norm=0.660 SNR=-6.990 bval=  20.177
+No=28 #lines= 3 qthr=   0.054 norm=0.606 SNR=-6.990 bval=  20.576
+No=29 #lines= 3 qthr=   0.054 norm=0.565 SNR=-6.990 bval=  20.950
+No=30 #lines= 4 qthr=   0.114 norm=0.560 SNR=-6.020 bval=  21.316
+No=31 #lines= 4 qthr=   0.114 norm=0.579 SNR=-6.020 bval=  21.699
+No=32 #lines= 5 qthr=   0.452 norm=0.567 SNR=-6.020 bval=  22.078
+No=33 #lines= 5 qthr=   0.452 norm=0.534 SNR=-6.020 bval=  22.438
+No=34 #lines= 5 qthr=   0.452 norm=0.514 SNR=-5.229 bval=  22.782
+No=35 #lines= 7 qthr=   6.330 norm=0.520 SNR=-5.229 bval=  23.133
+No=36 #lines= 7 qthr=   6.330 norm=0.518 SNR=-5.229 bval=  23.484
+No=37 #lines= 7 qthr=   6.330 norm=0.507 SNR=-5.229 bval=  23.828
+No=38 #lines=19 qthr= 171.813 norm=0.447 SNR=-4.559 bval=  24.173
+freq = 32000.0 partition = 41 
+No= 0 #lines= 1 qthr=   4.532 norm=1.000 SNR=-8.240 bval=   0.000
+No= 1 #lines= 1 qthr=   0.904 norm=0.985 SNR=-8.240 bval=   1.250
+No= 2 #lines= 1 qthr=   0.090 norm=0.983 SNR=-8.240 bval=   2.500
+No= 3 #lines= 1 qthr=   0.029 norm=0.983 SNR=-8.240 bval=   3.750
+No= 4 #lines= 1 qthr=   0.009 norm=0.981 SNR=-8.240 bval=   4.909
+No= 5 #lines= 1 qthr=   0.009 norm=0.975 SNR=-8.240 bval=   5.958
+No= 6 #lines= 1 qthr=   0.009 norm=0.959 SNR=-8.240 bval=   6.857
+No= 7 #lines= 1 qthr=   0.009 norm=0.944 SNR=-8.240 bval=   7.700
+No= 8 #lines= 1 qthr=   0.009 norm=0.933 SNR=-8.240 bval=   8.500
+No= 9 #lines= 1 qthr=   0.009 norm=0.920 SNR=-8.240 bval=   9.237
+No=10 #lines= 1 qthr=   0.009 norm=0.892 SNR=-7.447 bval=   9.895
+No=11 #lines= 1 qthr=   0.009 norm=0.863 SNR=-7.447 bval=  10.500
+No=12 #lines= 1 qthr=   0.009 norm=0.839 SNR=-7.447 bval=  11.083
+No=13 #lines= 1 qthr=   0.009 norm=0.786 SNR=-7.447 bval=  11.604
+No=14 #lines= 1 qthr=   0.009 norm=0.755 SNR=-7.447 bval=  12.107
+No=15 #lines= 1 qthr=   0.009 norm=0.698 SNR=-7.447 bval=  12.554
+No=16 #lines= 1 qthr=   0.009 norm=0.673 SNR=-7.447 bval=  13.000
+No=17 #lines= 1 qthr=   0.009 norm=0.605 SNR=-7.447 bval=  13.391
+No=18 #lines= 1 qthr=   0.009 norm=0.629 SNR=-7.447 bval=  13.781
+No=19 #lines= 2 qthr=   0.018 norm=0.883 SNR=-7.447 bval=  14.474
+No=20 #lines= 2 qthr=   0.018 norm=0.858 SNR=-6.990 bval=  15.096
+No=21 #lines= 2 qthr=   0.018 norm=0.829 SNR=-6.990 bval=  15.667
+No=22 #lines= 2 qthr=   0.018 norm=0.767 SNR=-6.990 bval=  16.177
+No=23 #lines= 2 qthr=   0.018 norm=0.705 SNR=-6.990 bval=  16.636
+No=24 #lines= 2 qthr=   0.018 norm=0.637 SNR=-6.990 bval=  17.057
+No=25 #lines= 2 qthr=   0.018 norm=0.564 SNR=-6.990 bval=  17.429
+No=26 #lines= 2 qthr=   0.018 norm=0.550 SNR=-6.990 bval=  17.786
+No=27 #lines= 3 qthr=   0.027 norm=0.603 SNR=-6.990 bval=  18.177
+No=28 #lines= 3 qthr=   0.027 norm=0.635 SNR=-6.990 bval=  18.597
+No=29 #lines= 3 qthr=   0.027 norm=0.592 SNR=-6.990 bval=  18.994
+No=30 #lines= 3 qthr=   0.027 norm=0.533 SNR=-6.020 bval=  19.352
+No=31 #lines= 3 qthr=   0.027 norm=0.518 SNR=-6.020 bval=  19.693
+No=32 #lines= 4 qthr=   0.072 norm=0.568 SNR=-6.020 bval=  20.066
+No=33 #lines= 4 qthr=   0.072 norm=0.594 SNR=-6.020 bval=  20.462
+No=34 #lines= 4 qthr=   0.072 norm=0.568 SNR=-5.229 bval=  20.841
+No=35 #lines= 5 qthr=   0.143 norm=0.536 SNR=-5.229 bval=  21.201
+No=36 #lines= 5 qthr=   0.143 norm=0.522 SNR=-5.229 bval=  21.549
+No=37 #lines= 6 qthr=   0.172 norm=0.542 SNR=-5.229 bval=  21.911
+No=38 #lines= 7 qthr=   0.633 norm=0.539 SNR=-4.559 bval=  22.275
+No=39 #lines= 7 qthr=   0.633 norm=0.519 SNR=-4.559 bval=  22.625
+No=40 #lines= 8 qthr=   0.723 norm=0.514 SNR=-3.980 bval=  22.971
+No=41 #lines=10 qthr=   9.043 norm=0.518 SNR=-3.980 bval=  23.321
+freq= 24000 partition = 44
+No=0 #lines= 1 qthr= 8.91250896 norm=0.971850038 SNR=0.150000006 bval= 0
+No=1 #lines= 1 qthr= 8.91250896 norm=0.874727964 SNR=0.150000006 bval= 0.946573138
+No=2 #lines= 1 qthr= 0.891250908 norm=0.85779953 SNR=0.150000006 bval= 1.88476217
+No=3 #lines= 1 qthr= 0.0891250968 norm=0.839743853 SNR=0.150000006 bval= 2.8056457
+No=4 #lines= 1 qthr= 0.028183829 norm=0.82260257 SNR=0.150000006 bval= 3.70133615
+No=5 #lines= 1 qthr= 0.00891250931 norm=0.80018574 SNR=0.150000006 bval= 4.56532001
+No=6 #lines= 1 qthr= 0.00891250931 norm=0.771475196 SNR=0.150000006 bval= 5.39263105
+No=7 #lines= 1 qthr= 0.00891250931 norm=0.737389982 SNR=0.150000006 bval= 6.17986727
+No=8 #lines= 1 qthr= 0.00891250931 norm=0.701111019 SNR=0.150000006 bval= 6.92507982
+No=9 #lines= 1 qthr= 0.00891250931 norm=0.65977633 SNR=0.150000006 bval= 7.62757969
+No=10 #lines= 1 qthr= 0.00891250931 norm=0.615037441 SNR=0.150000006 bval= 8.28770351
+No=11 #lines= 1 qthr= 0.00891250931 norm=0.568658054 SNR=0.150000006 bval= 8.90657234
+No=12 #lines= 1 qthr= 0.00891250931 norm=0.522260666 SNR=0.180000007 bval= 9.48587132
+No=13 #lines= 1 qthr= 0.00891250931 norm=0.478903115 SNR=0.180000007 bval= 10.0276566
+No=14 #lines= 1 qthr= 0.00891250931 norm=0.43808648 SNR=0.180000007 bval= 10.5341988
+No=15 #lines= 1 qthr= 0.00891250931 norm=0.412505627 SNR=0.180000007 bval= 11.0078659
+No=16 #lines= 1 qthr= 0.00891250931 norm=0.39070797 SNR=0.180000007 bval= 11.4510288
+No=17 #lines= 1 qthr= 0.00891250931 norm=0.371887118 SNR=0.180000007 bval= 11.866004
+No=18 #lines= 1 qthr= 0.00891250931 norm=0.367617637 SNR=0.180000007 bval= 12.2550087
+No=19 #lines= 1 qthr= 0.00891250931 norm=0.422220588 SNR=0.180000007 bval= 12.6201363
+No=20 #lines= 2 qthr= 0.0178250186 norm=0.564990044 SNR=0.180000007 bval= 13.2772083
+No=21 #lines= 2 qthr= 0.0178250186 norm=0.519700944 SNR=0.180000007 bval= 13.871047
+No=22 #lines= 2 qthr= 0.0178250186 norm=0.455360681 SNR=0.200000003 bval= 14.4024391
+No=23 #lines= 2 qthr= 0.0178250186 norm=0.408867925 SNR=0.200000003 bval= 14.8811684
+No=24 #lines= 2 qthr= 0.0178250186 norm=0.381538749 SNR=0.200000003 bval= 15.3153324
+No=25 #lines= 2 qthr= 0.0178250186 norm=0.362357527 SNR=0.200000003 bval= 15.7116165
+No=26 #lines= 2 qthr= 0.0178250186 norm=0.365735918 SNR=0.200000003 bval= 16.0755405
+No=27 #lines= 3 qthr= 0.0267375279 norm=0.38064 SNR=0.200000003 bval= 16.4882088
+No=28 #lines= 3 qthr= 0.0267375279 norm=0.379183382 SNR=0.200000003 bval= 16.9410992
+No=29 #lines= 3 qthr= 0.0267375279 norm=0.360672712 SNR=0.200000003 bval= 17.3513336
+No=30 #lines= 3 qthr= 0.0267375279 norm=0.343065977 SNR=0.200000003 bval= 17.7264423
+No=31 #lines= 3 qthr= 0.0267375279 norm=0.339290261 SNR=0.200000003 bval= 18.0722466
+No=32 #lines= 4 qthr= 0.0356500372 norm=0.342963994 SNR=0.200000003 bval= 18.4426575
+No=33 #lines= 4 qthr= 0.0356500372 norm=0.343128443 SNR=0.200000003 bval= 18.8344078
+No=34 #lines= 4 qthr= 0.0356500372 norm=0.343988508 SNR=0.25 bval= 19.1955795
+No=35 #lines= 5 qthr= 0.0445625484 norm=0.343928397 SNR=0.25 bval= 19.5697021
+No=36 #lines= 5 qthr= 0.0445625484 norm=0.339527696 SNR=0.25 bval= 19.9551182
+No=37 #lines= 5 qthr= 0.0889139697 norm=0.336541563 SNR=0.280000001 bval= 20.3115921
+No=38 #lines= 6 qthr= 0.106696762 norm=0.334955156 SNR=0.280000001 bval= 20.6737747
+No=39 #lines= 6 qthr= 0.169102982 norm=0.335601568 SNR=0.300000012 bval= 21.0404968
+No=40 #lines= 7 qthr= 0.1972868 norm=0.334716886 SNR=0.300000012 bval= 21.4060211
+No=41 #lines= 7 qthr= 0.1972868 norm=0.331676662 SNR=0.300000012 bval= 21.7696877
+No=42 #lines= 8 qthr= 0.713000774 norm=0.328550965 SNR=0.400000006 bval= 22.1267223
+No=43 #lines= 8 qthr= 0.713000774 norm=0.339241952 SNR=0.400000006 bval= 22.4769249
+No=44 #lines= 9 qthr= 0.802125871 norm=0.425207615 SNR=0.400000006 bval= 22.8164864
+freq= 22050 partition = 44
+No=0 #lines= 1 qthr= 8.91250896 norm=0.954045713 SNR=0.150000006 bval= 0
+No=1 #lines= 1 qthr= 8.91250896 norm=0.833381653 SNR=0.150000006 bval= 0.869851649
+No=2 #lines= 1 qthr= 0.891250908 norm=0.815945923 SNR=0.150000006 bval= 1.73325908
+No=3 #lines= 1 qthr= 0.0891250968 norm=0.794244766 SNR=0.150000006 bval= 2.58322191
+No=4 #lines= 1 qthr= 0.028183829 norm=0.776486695 SNR=0.150000006 bval= 3.4134295
+No=5 #lines= 1 qthr= 0.00891250931 norm=0.755260408 SNR=0.150000006 bval= 4.21850443
+No=6 #lines= 1 qthr= 0.00891250931 norm=0.731070817 SNR=0.150000006 bval= 4.99414825
+No=7 #lines= 1 qthr= 0.00891250931 norm=0.701775849 SNR=0.150000006 bval= 5.73718691
+No=8 #lines= 1 qthr= 0.00891250931 norm=0.667876124 SNR=0.150000006 bval= 6.44553185
+No=9 #lines= 1 qthr= 0.00891250931 norm=0.630284071 SNR=0.150000006 bval= 7.11807632
+No=10 #lines= 1 qthr= 0.00891250931 norm=0.590170324 SNR=0.150000006 bval= 7.75455618
+No=11 #lines= 1 qthr= 0.00891250931 norm=0.548788548 SNR=0.150000006 bval= 8.3553915
+No=12 #lines= 1 qthr= 0.00891250931 norm=0.507795513 SNR=0.150000006 bval= 8.92152882
+No=13 #lines= 1 qthr= 0.00891250931 norm=0.469515711 SNR=0.180000007 bval= 9.45430183
+No=14 #lines= 1 qthr= 0.00891250931 norm=0.432291716 SNR=0.180000007 bval= 9.95530319
+No=15 #lines= 1 qthr= 0.00891250931 norm=0.411131173 SNR=0.180000007 bval= 10.4262848
+No=16 #lines= 1 qthr= 0.00891250931 norm=0.390771538 SNR=0.180000007 bval= 10.8690758
+No=17 #lines= 1 qthr= 0.00891250931 norm=0.373318017 SNR=0.180000007 bval= 11.2855215
+No=18 #lines= 1 qthr= 0.00891250931 norm=0.36956048 SNR=0.180000007 bval= 11.6774378
+No=19 #lines= 1 qthr= 0.00891250931 norm=0.42595759 SNR=0.180000007 bval= 12.0465794
+No=20 #lines= 2 qthr= 0.0178250186 norm=0.576900065 SNR=0.180000007 bval= 12.7141209
+No=21 #lines= 2 qthr= 0.0178250186 norm=0.533114731 SNR=0.180000007 bval= 13.3197365
+No=22 #lines= 2 qthr= 0.0178250186 norm=0.469967514 SNR=0.180000007 bval= 13.8634901
+No=23 #lines= 2 qthr= 0.0178250186 norm=0.417268544 SNR=0.200000003 bval= 14.3544445
+No=24 #lines= 2 qthr= 0.0178250186 norm=0.389299124 SNR=0.200000003 bval= 14.8002586
+No=25 #lines= 2 qthr= 0.0178250186 norm=0.362824857 SNR=0.200000003 bval= 15.2073727
+No=26 #lines= 2 qthr= 0.0178250186 norm=0.346801281 SNR=0.200000003 bval= 15.5811834
+No=27 #lines= 2 qthr= 0.0178250186 norm=0.349400043 SNR=0.200000003 bval= 15.926218
+No=28 #lines= 3 qthr= 0.0267375279 norm=0.364026934 SNR=0.200000003 bval= 16.3194923
+No=29 #lines= 3 qthr= 0.0267375279 norm=0.36560446 SNR=0.200000003 bval= 16.752903
+No=30 #lines= 3 qthr= 0.0267375279 norm=0.354275256 SNR=0.200000003 bval= 17.1470814
+No=31 #lines= 3 qthr= 0.0267375279 norm=0.351219416 SNR=0.200000003 bval= 17.5086212
+No=32 #lines= 4 qthr= 0.0356500372 norm=0.354364097 SNR=0.200000003 bval= 17.8938141
+No=33 #lines= 4 qthr= 0.0356500372 norm=0.348915905 SNR=0.200000003 bval= 18.2992878
+No=34 #lines= 4 qthr= 0.0356500372 norm=0.337649345 SNR=0.200000003 bval= 18.6713982
+No=35 #lines= 4 qthr= 0.0356500372 norm=0.332076877 SNR=0.25 bval= 19.015646
+No=36 #lines= 5 qthr= 0.0445625484 norm=0.330793113 SNR=0.25 bval= 19.3734016
+No=37 #lines= 5 qthr= 0.0445625484 norm=0.327528268 SNR=0.25 bval= 19.7430382
+No=38 #lines= 5 qthr= 0.0889139697 norm=0.32551071 SNR=0.280000001 bval= 20.0859604
+No=39 #lines= 6 qthr= 0.106696762 norm=0.324436843 SNR=0.280000001 bval= 20.4354992
+No=40 #lines= 6 qthr= 0.106696762 norm=0.325835049 SNR=0.280000001 bval= 20.7905579
+No=41 #lines= 7 qthr= 0.1972868 norm=0.326221824 SNR=0.300000012 bval= 21.1458054
+No=42 #lines= 7 qthr= 0.1972868 norm=0.325960994 SNR=0.300000012 bval= 21.5005951
+No=43 #lines= 8 qthr= 0.225470632 norm=0.339019388 SNR=0.300000012 bval= 21.8504524
+No=44 #lines= 8 qthr= 0.713000774 norm=0.426850349 SNR=0.400000006 bval= 22.1951065
+freq= 16000 partition = 45
+No=0 #lines= 1 qthr= 8.91250896 norm=0.834739447 SNR=0.150000006 bval= 0
+No=1 #lines= 1 qthr= 8.91250896 norm=0.623757005 SNR=0.150000006 bval= 0.631518543
+No=2 #lines= 1 qthr= 0.891250908 norm=0.60420388 SNR=0.150000006 bval= 1.2606914
+No=3 #lines= 1 qthr= 0.891250908 norm=0.591974258 SNR=0.150000006 bval= 1.88476217
+No=4 #lines= 1 qthr= 0.0891250968 norm=0.575301588 SNR=0.150000006 bval= 2.50111985
+No=5 #lines= 1 qthr= 0.028183829 norm=0.561547697 SNR=0.150000006 bval= 3.1073606
+No=6 #lines= 1 qthr= 0.028183829 norm=0.546665847 SNR=0.150000006 bval= 3.70133615
+No=7 #lines= 1 qthr= 0.00891250931 norm=0.52986443 SNR=0.150000006 bval= 4.28118753
+No=8 #lines= 1 qthr= 0.00891250931 norm=0.511183441 SNR=0.150000006 bval= 4.84536505
+No=9 #lines= 1 qthr= 0.00891250931 norm=0.490902334 SNR=0.150000006 bval= 5.39263105
+No=10 #lines= 1 qthr= 0.00891250931 norm=0.46938166 SNR=0.150000006 bval= 5.92205667
+No=11 #lines= 1 qthr= 0.00891250931 norm=0.447003782 SNR=0.150000006 bval= 6.43299866
+No=12 #lines= 1 qthr= 0.00891250931 norm=0.428170592 SNR=0.150000006 bval= 6.92507982
+No=13 #lines= 1 qthr= 0.00891250931 norm=0.414536625 SNR=0.150000006 bval= 7.39815664
+No=14 #lines= 1 qthr= 0.00891250931 norm=0.401033074 SNR=0.150000006 bval= 7.85228777
+No=15 #lines= 1 qthr= 0.00891250931 norm=0.38779071 SNR=0.150000006 bval= 8.28770351
+No=16 #lines= 1 qthr= 0.00891250931 norm=0.374230444 SNR=0.150000006 bval= 8.704772
+No=17 #lines= 1 qthr= 0.00891250931 norm=0.360547513 SNR=0.180000007 bval= 9.10397339
+No=18 #lines= 1 qthr= 0.00891250931 norm=0.348256677 SNR=0.180000007 bval= 9.48587132
+No=19 #lines= 1 qthr= 0.00891250931 norm=0.350327015 SNR=0.180000007 bval= 9.85109234
+No=20 #lines= 1 qthr= 0.00891250931 norm=0.406330824 SNR=0.180000007 bval= 10.200304
+No=21 #lines= 2 qthr= 0.0178250186 norm=0.554098248 SNR=0.180000007 bval= 10.846529
+No=22 #lines= 2 qthr= 0.0178250186 norm=0.528312504 SNR=0.180000007 bval= 11.4447651
+No=23 #lines= 2 qthr= 0.0178250186 norm=0.476527005 SNR=0.180000007 bval= 11.9928398
+No=24 #lines= 2 qthr= 0.0178250186 norm=0.428205669 SNR=0.180000007 bval= 12.495945
+No=25 #lines= 2 qthr= 0.0178250186 norm=0.402271926 SNR=0.180000007 bval= 12.9588718
+No=26 #lines= 2 qthr= 0.0178250186 norm=0.378024429 SNR=0.180000007 bval= 13.3859692
+No=27 #lines= 2 qthr= 0.0178250186 norm=0.36254698 SNR=0.180000007 bval= 13.7811394
+No=28 #lines= 2 qthr= 0.0178250186 norm=0.368058592 SNR=0.200000003 bval= 14.1478529
+No=29 #lines= 3 qthr= 0.0267375279 norm=0.385963261 SNR=0.200000003 bval= 14.5674343
+No=30 #lines= 3 qthr= 0.0267375279 norm=0.38640517 SNR=0.200000003 bval= 15.0304852
+No=31 #lines= 3 qthr= 0.0267375279 norm=0.367834061 SNR=0.200000003 bval= 15.4513416
+No=32 #lines= 3 qthr= 0.0267375279 norm=0.349686563 SNR=0.200000003 bval= 15.836277
+No=33 #lines= 3 qthr= 0.0267375279 norm=0.345709383 SNR=0.200000003 bval= 16.1904697
+No=34 #lines= 4 qthr= 0.0356500372 norm=0.34871915 SNR=0.200000003 bval= 16.5683517
+No=35 #lines= 4 qthr= 0.0356500372 norm=0.347054332 SNR=0.200000003 bval= 16.9660263
+No=36 #lines= 4 qthr= 0.0356500372 norm=0.346329987 SNR=0.200000003 bval= 17.3304482
+No=37 #lines= 5 qthr= 0.0445625484 norm=0.344658494 SNR=0.200000003 bval= 17.7055588
+No=38 #lines= 5 qthr= 0.0445625484 norm=0.338779271 SNR=0.200000003 bval= 18.0899811
+No=39 #lines= 5 qthr= 0.0445625484 norm=0.334878683 SNR=0.200000003 bval= 18.4440536
+No=40 #lines= 6 qthr= 0.0534750558 norm=0.332811534 SNR=0.200000003 bval= 18.8030052
+No=41 #lines= 6 qthr= 0.0534750558 norm=0.333717585 SNR=0.25 bval= 19.1665268
+No=42 #lines= 7 qthr= 0.062387567 norm=0.333986402 SNR=0.25 bval= 19.5299358
+No=43 #lines= 7 qthr= 0.062387567 norm=0.334142625 SNR=0.25 bval= 19.8934898
+No=44 #lines= 8 qthr= 0.142262354 norm=0.34677428 SNR=0.280000001 bval= 20.2535706
+No=45 #lines= 8 qthr= 0.142262354 norm=0.436254472 SNR=0.280000001 bval= 20.610569
+freq=48000.0 sb=20
+sb= 0 cbw=3 bu= 0 bo= 4 w1=1.000 w2=0.056
+sb= 1 cbw=3 bu= 4 bo= 7 w1=0.944 w2=0.611
+sb= 2 cbw=4 bu= 7 bo=11 w1=0.389 w2=0.167
+sb= 3 cbw=3 bu=11 bo=14 w1=0.833 w2=0.722
+sb= 4 cbw=3 bu=14 bo=17 w1=0.278 w2=0.639
+sb= 5 cbw=2 bu=17 bo=19 w1=0.361 w2=0.417
+sb= 6 cbw=3 bu=19 bo=22 w1=0.583 w2=0.083
+sb= 7 cbw=2 bu=22 bo=24 w1=0.917 w2=0.750
+sb= 8 cbw=3 bu=24 bo=27 w1=0.250 w2=0.417
+sb= 9 cbw=3 bu=27 bo=30 w1=0.583 w2=0.648
+sb=10 cbw=3 bu=30 bo=33 w1=0.352 w2=0.611
+sb=11 cbw=3 bu=33 bo=36 w1=0.389 w2=0.625
+sb=12 cbw=4 bu=36 bo=40 w1=0.375 w2=0.144
+sb=13 cbw=3 bu=40 bo=43 w1=0.856 w2=0.389
+sb=14 cbw=3 bu=43 bo=46 w1=0.611 w2=0.160
+sb=15 cbw=3 bu=46 bo=49 w1=0.840 w2=0.217
+sb=16 cbw=3 bu=49 bo=52 w1=0.783 w2=0.184
+sb=17 cbw=2 bu=52 bo=54 w1=0.816 w2=0.886
+sb=18 cbw=3 bu=54 bo=57 w1=0.114 w2=0.313
+sb=19 cbw=2 bu=57 bo=59 w1=0.687 w2=0.452
+sb=20 cbw=1 bu=59 bo=60 w1=0.548 w2=0.908
+freq=44100.0 sb=20
+sb= 0 cbw=3 bu= 0 bo= 4 w1=1.000 w2=0.056
+sb= 1 cbw=3 bu= 4 bo= 7 w1=0.944 w2=0.611
+sb= 2 cbw=4 bu= 7 bo=11 w1=0.389 w2=0.167
+sb= 3 cbw=3 bu=11 bo=14 w1=0.833 w2=0.722
+sb= 4 cbw=3 bu=14 bo=17 w1=0.278 w2=0.139
+sb= 5 cbw=1 bu=17 bo=18 w1=0.861 w2=0.917
+sb= 6 cbw=3 bu=18 bo=21 w1=0.083 w2=0.583
+sb= 7 cbw=3 bu=21 bo=24 w1=0.417 w2=0.250
+sb= 8 cbw=3 bu=24 bo=27 w1=0.750 w2=0.805
+sb= 9 cbw=3 bu=27 bo=30 w1=0.194 w2=0.574
+sb=10 cbw=3 bu=30 bo=33 w1=0.426 w2=0.537
+sb=11 cbw=3 bu=33 bo=36 w1=0.463 w2=0.819
+sb=12 cbw=4 bu=36 bo=40 w1=0.180 w2=0.100
+sb=13 cbw=3 bu=40 bo=43 w1=0.900 w2=0.468
+sb=14 cbw=3 bu=43 bo=46 w1=0.532 w2=0.623
+sb=15 cbw=3 bu=46 bo=49 w1=0.376 w2=0.450
+sb=16 cbw=3 bu=49 bo=52 w1=0.550 w2=0.552
+sb=17 cbw=3 bu=52 bo=55 w1=0.448 w2=0.403
+sb=18 cbw=2 bu=55 bo=57 w1=0.597 w2=0.643
+sb=19 cbw=2 bu=57 bo=59 w1=0.357 w2=0.722
+sb=20 cbw=2 bu=59 bo=61 w1=0.278 w2=0.960
+freq=32000 sb=20
+sb= 0 cbw=1 bu= 0 bo= 2 w1=1.000 w2=0.528
+sb= 1 cbw=2 bu= 2 bo= 4 w1=0.472 w2=0.305
+sb= 2 cbw=2 bu= 4 bo= 6 w1=0.694 w2=0.083
+sb= 3 cbw=1 bu= 6 bo= 7 w1=0.917 w2=0.861
+sb= 4 cbw=2 bu= 7 bo= 9 w1=0.139 w2=0.639
+sb= 5 cbw=2 bu= 9 bo=11 w1=0.361 w2=0.417
+sb= 6 cbw=3 bu=11 bo=14 w1=0.583 w2=0.083
+sb= 7 cbw=2 bu=14 bo=16 w1=0.917 w2=0.750
+sb= 8 cbw=3 bu=16 bo=19 w1=0.250 w2=0.870
+sb= 9 cbw=3 bu=19 bo=22 w1=0.130 w2=0.833
+sb=10 cbw=4 bu=22 bo=26 w1=0.167 w2=0.389
+sb=11 cbw=4 bu=26 bo=30 w1=0.611 w2=0.478
+sb=12 cbw=4 bu=30 bo=34 w1=0.522 w2=0.033
+sb=13 cbw=3 bu=34 bo=37 w1=0.967 w2=0.917
+sb=14 cbw=4 bu=37 bo=41 w1=0.083 w2=0.617
+sb=15 cbw=3 bu=41 bo=44 w1=0.383 w2=0.995
+sb=16 cbw=4 bu=44 bo=48 w1=0.005 w2=0.274
+sb=17 cbw=3 bu=48 bo=51 w1=0.726 w2=0.480
+sb=18 cbw=3 bu=51 bo=54 w1=0.519 w2=0.261
+sb=19 cbw=2 bu=54 bo=56 w1=0.739 w2=0.884
+sb=20 cbw=2 bu=56 bo=58 w1=0.116 w2=1.000
+freq= 24000 sb=20
+sb=0 cbw=2 bu=0 bo=3 w1=1 w2=0.916666746
+sb=1 cbw=3 bu=3 bo=6 w1=0.0833332539 w2=0.583333492
+sb=2 cbw=3 bu=6 bo=9 w1=0.416666508 w2=0.25
+sb=3 cbw=2 bu=9 bo=11 w1=0.75 w2=0.916666985
+sb=4 cbw=3 bu=11 bo=14 w1=0.0833330154 w2=0.583333969
+sb=5 cbw=3 bu=14 bo=17 w1=0.416666031 w2=0.25
+sb=6 cbw=3 bu=17 bo=20 w1=0.75 w2=0.537036896
+sb=7 cbw=3 bu=20 bo=23 w1=0.462963104 w2=0.5
+sb=8 cbw=4 bu=23 bo=27 w1=0.5 w2=0.0555559993
+sb=9 cbw=3 bu=27 bo=30 w1=0.944444001 w2=0.402778625
+sb=10 cbw=3 bu=30 bo=33 w1=0.597221375 w2=0.766667187
+sb=11 cbw=3 bu=33 bo=36 w1=0.233332828 w2=0.805555999
+sb=12 cbw=3 bu=36 bo=39 w1=0.194444016 w2=0.769841909
+sb=13 cbw=3 bu=39 bo=42 w1=0.23015812 w2=0.611111104
+sb=14 cbw=3 bu=42 bo=45 w1=0.388888896 w2=0.449494779
+sb=15 cbw=3 bu=45 bo=48 w1=0.550505221 w2=0.194444954
+sb=16 cbw=2 bu=48 bo=50 w1=0.805555046 w2=0.913194656
+sb=17 cbw=3 bu=50 bo=53 w1=0.0868053436 w2=0.580555737
+sb=18 cbw=3 bu=53 bo=56 w1=0.419444263 w2=0.113426208
+sb=19 cbw=2 bu=56 bo=58 w1=0.886573792 w2=0.533730626
+sb=20 cbw=2 bu=58 bo=60 w1=0.466269344 w2=0.691176474
+freq= 22050 sb=20
+sb=0 cbw=2 bu=0 bo=3 w1=1 w2=0.916666746
+sb=1 cbw=3 bu=3 bo=6 w1=0.0833332539 w2=0.583333492
+sb=2 cbw=3 bu=6 bo=9 w1=0.416666508 w2=0.25
+sb=3 cbw=2 bu=9 bo=11 w1=0.75 w2=0.916666985
+sb=4 cbw=3 bu=11 bo=14 w1=0.0833330154 w2=0.583333969
+sb=5 cbw=3 bu=14 bo=17 w1=0.416666031 w2=0.25
+sb=6 cbw=3 bu=17 bo=20 w1=0.75 w2=0.203703582
+sb=7 cbw=3 bu=20 bo=23 w1=0.796296418 w2=0.166666687
+sb=8 cbw=3 bu=23 bo=26 w1=0.833333313 w2=0.722222686
+sb=9 cbw=4 bu=26 bo=30 w1=0.277777344 w2=0.152778625
+sb=10 cbw=3 bu=30 bo=33 w1=0.847221375 w2=0.566667199
+sb=11 cbw=3 bu=33 bo=36 w1=0.433332831 w2=0.93518573
+sb=12 cbw=4 bu=36 bo=40 w1=0.0648142472 w2=0.118056297
+sb=13 cbw=3 bu=40 bo=43 w1=0.881943703 w2=0.0925937295
+sb=14 cbw=2 bu=43 bo=45 w1=0.907406271 w2=0.934344172
+sb=15 cbw=3 bu=45 bo=48 w1=0.0656557977 w2=0.575398028
+sb=16 cbw=3 bu=48 bo=51 w1=0.424601972 w2=0.232026935
+sb=17 cbw=2 bu=51 bo=53 w1=0.767973065 w2=0.758334339
+sb=18 cbw=3 bu=53 bo=56 w1=0.241665646 w2=0.187501252
+sb=19 cbw=2 bu=56 bo=58 w1=0.812498748 w2=0.533731699
+sb=20 cbw=2 bu=58 bo=60 w1=0.466268271 w2=0.257577598
+freq= 16000 sb=20
+sb=0 cbw=1 bu=0 bo=2 w1=1 w2=0.944444478
+sb=1 cbw=2 bu=2 bo=4 w1=0.0555555038 w2=0.722222328
+sb=2 cbw=2 bu=4 bo=6 w1=0.277777672 w2=0.5
+sb=3 cbw=2 bu=6 bo=8 w1=0.5 w2=0.27777797
+sb=4 cbw=2 bu=8 bo=10 w1=0.72222203 w2=0.0555559993
+sb=5 cbw=1 bu=10 bo=11 w1=0.944444001 w2=0.833333313
+sb=6 cbw=3 bu=11 bo=14 w1=0.166666672 w2=0.203703582
+sb=7 cbw=3 bu=14 bo=17 w1=0.796296418 w2=0.166666687
+sb=8 cbw=3 bu=17 bo=20 w1=0.833333313 w2=0.54166698
+sb=9 cbw=3 bu=20 bo=23 w1=0.458333015 w2=0.652778625
+sb=10 cbw=4 bu=23 bo=27 w1=0.347221375 w2=0.166667163
+sb=11 cbw=3 bu=27 bo=30 w1=0.833332837 w2=0.722222924
+sb=12 cbw=4 bu=30 bo=34 w1=0.277777106 w2=0.277778625
+sb=13 cbw=3 bu=34 bo=37 w1=0.722221375 w2=0.604167938
+sb=14 cbw=3 bu=37 bo=40 w1=0.395832062 w2=0.627778649
+sb=15 cbw=3 bu=40 bo=43 w1=0.37222138 w2=0.542736351
+sb=16 cbw=3 bu=43 bo=46 w1=0.457263649 w2=0.371528625
+sb=17 cbw=3 bu=46 bo=49 w1=0.628471375 w2=0.00833433867
+sb=18 cbw=2 bu=49 bo=51 w1=0.991665661 w2=0.500001311
+sb=19 cbw=2 bu=51 bo=53 w1=0.499998659 w2=0.886832893
+sb=20 cbw=2 bu=53 bo=55 w1=0.113167092 w2=0.629034221
+freq=48000.0 sb=11
+sb= 0 cbw=2 bu= 0 bo= 2 w1=1.000 w2=0.167
+sb= 1 cbw=2 bu= 3 bo= 5 w1=0.833 w2=0.833
+sb= 2 cbw=3 bu= 5 bo= 8 w1=0.167 w2=0.500
+sb= 3 cbw=3 bu= 8 bo=11 w1=0.500 w2=0.167
+sb= 4 cbw=4 bu=11 bo=15 w1=0.833 w2=0.167
+sb= 5 cbw=4 bu=15 bo=19 w1=0.833 w2=0.583
+sb= 6 cbw=3 bu=19 bo=22 w1=0.417 w2=0.917
+sb= 7 cbw=4 bu=22 bo=26 w1=0.083 w2=0.944
+sb= 8 cbw=4 bu=26 bo=30 w1=0.055 w2=0.042
+sb= 9 cbw=2 bu=30 bo=32 w1=0.958 w2=0.567
+sb=10 cbw=3 bu=32 bo=35 w1=0.433 w2=0.167
+sb=11 cbw=2 bu=35 bo=37 w1=0.833 w2=0.618
+freq=44100.0 sb=11
+sb= 0 cbw=2 bu= 0 bo= 2 w1=1.000 w2=0.167
+sb= 1 cbw=2 bu= 3 bo= 5 w1=0.833 w2=0.833
+sb= 2 cbw=3 bu= 5 bo= 8 w1=0.167 w2=0.500
+sb= 3 cbw=3 bu= 8 bo=11 w1=0.500 w2=0.167
+sb= 4 cbw=4 bu=11 bo=15 w1=0.833 w2=0.167
+sb= 5 cbw=5 bu=15 bo=20 w1=0.833 w2=0.250
+sb= 6 cbw=3 bu=20 bo=23 w1=0.750 w2=0.583
+sb= 7 cbw=4 bu=23 bo=27 w1=0.417 w2=0.055
+sb= 8 cbw=3 bu=27 bo=30 w1=0.944 w2=0.375
+sb= 9 cbw=3 bu=30 bo=33 w1=0.625 w2=0.300
+sb=10 cbw=3 bu=33 bo=36 w1=0.700 w2=0.167
+sb=11 cbw=2 bu=36 bo=38 w1=0.833 w2=1.000
+freq=32000 sb=11
+sb= 0 cbw=2 bu= 0 bo= 2 w1=1.000 w2=0.167
+sb= 1 cbw=2 bu= 3 bo= 5 w1=0.833 w2=0.833
+sb= 2 cbw=3 bu= 5 bo= 8 w1=0.167 w2=0.500
+sb= 3 cbw=3 bu= 8 bo=11 w1=0.500 w2=0.167
+sb= 4 cbw=4 bu=11 bo=15 w1=0.833 w2=0.167
+sb= 5 cbw=5 bu=15 bo=20 w1=0.833 w2=0.250
+sb= 6 cbw=4 bu=20 bo=24 w1=0.750 w2=0.250
+sb= 7 cbw=5 bu=24 bo=29 w1=0.750 w2=0.055
+sb= 8 cbw=4 bu=29 bo=33 w1=0.944 w2=0.375
+sb= 9 cbw=4 bu=33 bo=37 w1=0.625 w2=0.472
+sb=10 cbw=3 bu=37 bo=40 w1=0.528 w2=0.937
+sb=11 cbw=1 bu=40 bo=41 w1=0.062 w2=1.000
+freq= 24000 sb=11
+sb=0 cbw=3 bu=0 bo=4 w1=1 w2=0.166666746
+sb=1 cbw=2 bu=4 bo=6 w1=0.833333254 w2=0.833333492
+sb=2 cbw=3 bu=6 bo=9 w1=0.166666508 w2=0.5
+sb=3 cbw=4 bu=9 bo=13 w1=0.5 w2=0.5
+sb=4 cbw=5 bu=13 bo=18 w1=0.5 w2=0.833333969
+sb=5 cbw=5 bu=18 bo=23 w1=0.166666031 w2=0.25
+sb=6 cbw=4 bu=23 bo=27 w1=0.75 w2=0.25
+sb=7 cbw=3 bu=27 bo=30 w1=0.75 w2=0.611111999
+sb=8 cbw=4 bu=30 bo=34 w1=0.388888031 w2=0.208333969
+sb=9 cbw=3 bu=34 bo=37 w1=0.791666031 w2=0.766667187
+sb=10 cbw=4 bu=37 bo=41 w1=0.233332828 w2=0.45238167
+sb=11 cbw=4 bu=41 bo=45 w1=0.54761833 w2=0.277778625
+freq= 22050 sb=11
+sb=0 cbw=3 bu=0 bo=4 w1=1 w2=0.166666746
+sb=1 cbw=2 bu=4 bo=6 w1=0.833333254 w2=0.833333492
+sb=2 cbw=3 bu=6 bo=9 w1=0.166666508 w2=0.5
+sb=3 cbw=4 bu=9 bo=13 w1=0.5 w2=0.5
+sb=4 cbw=4 bu=13 bo=17 w1=0.5 w2=0.5
+sb=5 cbw=4 bu=17 bo=21 w1=0.5 w2=0.916666985
+sb=6 cbw=4 bu=21 bo=25 w1=0.0833330154 w2=0.25
+sb=7 cbw=4 bu=25 bo=29 w1=0.75 w2=0.611111999
+sb=8 cbw=4 bu=29 bo=33 w1=0.388888031 w2=0.458333969
+sb=9 cbw=4 bu=33 bo=37 w1=0.541666031 w2=0.633334339
+sb=10 cbw=4 bu=37 bo=41 w1=0.366665661 w2=0.583334565
+sb=11 cbw=4 bu=41 bo=45 w1=0.416665405 w2=0.437500954
+freq= 16000 sb=11
+sb=0 cbw=3 bu=0 bo=4 w1=1 w2=0.166666746
+sb=1 cbw=2 bu=4 bo=6 w1=0.833333254 w2=0.833333492
+sb=2 cbw=3 bu=6 bo=9 w1=0.166666508 w2=0.5
+sb=3 cbw=4 bu=9 bo=13 w1=0.5 w2=0.5
+sb=4 cbw=5 bu=13 bo=18 w1=0.5 w2=0.833333969
+sb=5 cbw=5 bu=18 bo=23 w1=0.166666031 w2=0.75
+sb=6 cbw=4 bu=23 bo=27 w1=0.25 w2=0.75
+sb=7 cbw=4 bu=27 bo=31 w1=0.25 w2=0.611111999
+sb=8 cbw=4 bu=31 bo=35 w1=0.388888031 w2=0.458333969
+sb=9 cbw=4 bu=35 bo=39 w1=0.541666031 w2=0.166667163
+sb=10 cbw=3 bu=39 bo=42 w1=0.833332837 w2=0.805555999
+sb=11 cbw=4 bu=42 bo=46 w1=0.194444016 w2=0.4375

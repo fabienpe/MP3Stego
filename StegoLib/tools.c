@@ -1,34 +1,66 @@
-/*---------------------------------------------------------------------------
- * FILE			$Workfile: tools.c $ - Part of MP3 Stego
+/*--------------------------------------------------------------------
+ * MP3Stego - $Workfile: tools.c $
  *
- * AUTHOR		Copyright (c) 1998 - Fabien Petitcolas
- *                                   University of Cambridge
+ * Contents: Error handling.
  *
- * PURPOSE		Encryption, compression and pseudo-random number functions for
- *              steganography. Header file.
+ * Purpose:  
  *
- * $Modtime: 10/02/99 20:46 $
- * $Revision: 7 $
- * $Header: /StegoLib/tools.c 7     11/02/99 11:29 Fapp2 $
- * $Log: /StegoLib/tools.c $
- * 
- * 7     11/02/99 11:29 Fapp2
- * Minor warning
- * 
- * 6     9/02/99 22:26 Fapp2
- * Support for passphrase as command line parameter.
- * 
- * 5     15/08/98 10:38 Fapp2
- * Started revision control on this file.
- * 
- *---------------------------------------------------------------------------
+ * Created:  Fabien A. P. Petitcolas, fabien22@petitcolas.net
+ *
+ * Modified: Encryption, compression and pseudo-random number
+ *           functions for steganography.
+ *
+ * History:
+ *
+ * Copyright (c) 1998, Fabien A. P. Petitcolas.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted for noncommercial research and academic
+ * use only, provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ *   Each individual file must retain its own copyright notice.
+ *
+ * - Redistributions in binary form must reproduce the above copyright
+ *   notice, this list of conditions, the following disclaimer and the
+ *   list of contributors in the documentation and/or other materials
+ *   provided with the distribution.
+ *
+ * - Modification of the program or portion of it is allowed provided
+ *   that the modified files carry prominent notices stating where and
+ *   when they have been changed. If you do modify this program you
+ *   should send to the contributors a general description of the
+ *   changes and send them a copy of your changes at their request. By
+ *   sending any changes to this program to the contributors, you are
+ *   granting a license on such changes under the same terms and
+ *   conditions as provided in this license agreement.  However, the
+ *   contributors are under no obligation to accept your changes.
+ *
+ * - All noncommercial advertising materials mentioning features or
+ *   use of this software must display the following acknowledgement:
+ *
+ *   This product includes software developed by Fabien A. P. Petitcolas
+ *   when he was with the University of Cambridge.
+ *
+ * THIS SOFTWARE IS NOT INTENDED FOR ANY COMMERCIAL APPLICATION AND IS
+ * PROVIDED BY FABIEN A. P. PETITCOLAS `AS IS', WITH ALL FAULTS AND ANY
+ * EXPRESS OR IMPLIED REPRESENTATIONS OR WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NONINFRINGEMENT OF
+ * INTELLECTUAL PROPERTY ARE DISCLAIMED. IN NO EVENT SHALL FABIEN A.
+ * PETITCOLAS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+ * USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ * DAMAGE. 
+ *
+ * $Header: /StegoLib/tools.c 11    19/03/02 10:55 Fabienpe $
+ *--------------------------------------------------------------------
  */
-#ifndef WIN32
-#ifndef UNIX
-#define UNIX
-#endif
-#endif
-
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -40,13 +72,8 @@
 #define GETCHAR _getch()
 #define stat _stat
 #endif
-#ifdef UNIX
-#include <termios.h>
-#include <unistd.h>
-#define GETCHAR getchar()
-#endif
 
-#include "../gzlib/zlib.h"
+#include "../zlib-1.1.4/zlib.h"
 
 #include "des.h"
 #include "sha.h"
@@ -56,7 +83,7 @@
 extern char *pszPassword;
 static char pszPass[MAX_LEN];
 
-#if defined(DEBUG) | defined(_DEBUG)
+#if defined(_DEBUG)
 /*#define DONT_ENCRYPT_OR_COMPRESS*/
 #ifdef DONT_ENCRYPT_OR_COMPRESS
 static void CopyFile(const char *in, const char *out);
@@ -71,9 +98,6 @@ char *ReadPassPhrase(void)
 {
     int i, ch;
     char tmp[MAX_LEN];
-#ifdef UNIX
-    struct termios attr;
-#endif
 
     if (pszPassword != NULL)
     {
@@ -84,16 +108,11 @@ char *ReadPassPhrase(void)
     do {
         printf( "Enter a passphrase: " );
         fflush(stdout);
-#ifdef UNIX
-        /* Turn off echo */
-        if (tcgetattr(STDIN_FILENO, &attr) != 0)
-            ERROR("ReadPassPhrase: could not get terminal attributes.");
-        attr.c_lflag &= ~(ECHO);
-        if (tcsetattr(STDIN_FILENO, TCSAFLUSH, &attr) != 0)
-            ERROR("ReadPassPhrase: could not set terminal attributes.");
-#endif
         for(i = 0; (i < MAX_LEN - 1) &&  ((ch = GETCHAR) != EOF) && (ch != '\n') && (ch != '\r'); i++)
-            pszPass[i] = (char)ch;
+        {
+          printf("*");
+          pszPass[i] = (char)ch;
+        }
         printf("\n");
         pszPass[i] = '\0';
 
@@ -101,13 +120,10 @@ char *ReadPassPhrase(void)
         printf( "Confirm your passphrase: " );
         fflush(stdout);
         for(i = 0; (i < MAX_LEN - 1) &&  ((ch = GETCHAR) != EOF) && (ch != '\n') && (ch != '\r'); i++)
-            tmp[i] = (char)ch;
-#ifdef UNIX
-        /* Turn echo back*/
-        attr.c_lflag |= ECHO;
-        if (tcsetattr(STDIN_FILENO, TCSANOW, &attr) != 0)
-            ERROR("ReadPassPhrase: could not set terminal attributes.");
-#endif
+        {
+           printf("*");
+           tmp[i] = (char)ch;
+        }
         printf("\n");
         tmp[i] = '\0';
     } while (strcmp(pszPass, tmp));
@@ -183,7 +199,7 @@ int GetPseudoRandomBit(int cmd)
         {
             /* skip this DONT_EMBED */
             count = 0;
-#if defined(DEBUG) | defined(_DEBUG)
+#if defined(_DEBUG)
             printf("<*>");
 #endif
             /* return the next "command" */
@@ -191,7 +207,7 @@ int GetPseudoRandomBit(int cmd)
         }
         else
         {
-#if defined(DEBUG) | defined(_DEBUG)
+#if defined(_DEBUG)
             printf("<%d>", res);
 #endif
             return res;
@@ -369,7 +385,7 @@ void Encrypt(const char *pszInput, const char *pszOutput,
 		if (des_is_weak_key(&pKeys[i]))
             ERROR("Encrypt: choose another passphrase.");
 
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
         des_cblock_print_file(pKeys[i]);
 #endif
 
@@ -408,7 +424,7 @@ void Encrypt(const char *pszInput, const char *pszOutput,
             if (fwrite(bufOut, 1, BLOCK_LEN, fout) != BLOCK_LEN) 
                 ERROR("Encrypt: error while writing the enciphered file");
 
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
             des_cblock_print_file(bufOut);
 #endif
         }
@@ -437,7 +453,7 @@ void Encrypt(const char *pszInput, const char *pszOutput,
 		        des_ede3_cbc_encrypt((des_cblock *)bufIn, (des_cblock *)bufOut, BLOCK_LEN, 
                     pSchedule[0], pSchedule[1], pSchedule[2], (des_cblock *)pIV, bEncrypt);
 
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
                 des_cblock_print_file(bufIn);
 #endif
             }
@@ -459,7 +475,7 @@ void Encrypt(const char *pszInput, const char *pszOutput,
     memset(bufOut, 0, sizeof(bufOut));
     memset(pSchedule, 0, sizeof(pSchedule));
 
-#if defined(_DEBUG) | defined(DEBUG)
+#if defined(_DEBUG)
     printf("\n\n");
 #endif
 }

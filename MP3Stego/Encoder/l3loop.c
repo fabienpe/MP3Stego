@@ -8,7 +8,7 @@
 /*                                                              */
 /* Fabien A.P. Petitcolas, August 1998                          */
 /*                                                              */
-/* $Header: /MP3Stego/MP3Stego Encoder/l3loop.c 6     30/11/00 15:57 Fabienpe $                                                   */
+/* $Header: /MP3Stego/MP3Stego Encoder/l3loop.c 7     19/03/02 10:56 Fabienpe $                                                   */
 
 #include <math.h>
 #include <stdio.h>
@@ -436,13 +436,13 @@ int quantanf_init(double xr[576])
     {
         sfm = exp(sum1/576.0)/(sum2/576.0);
         tp  = nint(system_const*log(sfm));
-	if (tp<minlimit) tp = minlimit;
+	if (tp<minlimit) tp = (int)minlimit;
     }
 
-    return(tp-70.0); /* SS 19-12-96. Starting value of
-                        global_gain or quantizerStepSize 
-                        has to be reduced for iteration_loop
-                     */
+    return(tp-70); /* SS 19-12-96. Starting value of
+                      global_gain or quantizerStepSize 
+                      has to be reduced for iteration_loop
+                    */
 }
 
 
@@ -1751,8 +1751,8 @@ int bin_search_StepSize(int desired_rate, double start, int *ix,
     int top,bot,next,last;
     int bit;
 
-    top  = start;
-    next = start;
+    top  = (int)start;
+    next = (int)start;
     bot  = 200;
 
     do
