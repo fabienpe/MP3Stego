@@ -1,0 +1,138 @@
+-----------------------------------------------------------README---------------
+
+Mon May 18 01:20:00 MET DST 1998
+
+Contents
+  What is 8hz-mp3 ?
+  How to use it.
+  Known misfeatures.
+  How to contribute.
+  Version history.
+  Disclaimer.
+  List of Contributors.
+
+-----------------------------------------------------------What is 8hz-mp3 ?----
+8hz-mp3 is the name for our MPEG audio encoder,
+
+SoloH's project "MpegEnc" gave us the idea to also have a go at an free encoder,
+  but with speed as our main goal, so we went at it.
+  We did it to learn something and have some fun while doing so.
+  It supports a number of platforms and will be ported to more eventually.
+  We took the same official ISO source as SoloH did and we poked around in it 
+  for a couple of days. It's free as is his, but we target more platforms. 
+  The result seems not to be too bad (we think). 
+
+At this moment this encoder only supports MPEG I layer III. 
+  (but hey, what else would you want to encode anyway ??)
+  This encoder seems to be reasonably fast and it's totally free...
+
+
+-----------------------------------------------------------How to use it--------
+
+This program reads windows .wav (RIFF-WAVE-MSPCM) sample-files.
+  Only 16-Bit samples are supported.
+  8hz-mp3 encodes a .mp3 file with the same channel mode as the .wav file has.
+  (either mono or stereo)
+  
+|  8hz-mp3 1998 8Hz software
+|  USAGE   : 8hz-mp3 [options] infile outfile
+|  OPTIONS : -h            this help message
+|            -b bitrate    set the bitrate, default 128kbit
+|            -c            set copyright flag, default off
+|            -o            set original flag, default off
+
+  Valid samplerates are : 32000, 44100 and 48000Hz
+  (eg, samples with other samplerates are rejected by the encoder.)
+  Valid bitrates are : 32,40,48,56,64,80,96,112,128,160,192,224,256 and 320
+
+For example :
+|  8hz-mp3 -b 128 -c -o blah.wav blah.mp3
+(This will encode the sample blah.wav into blah.mp3, with a bitrate of
+ 128kBit/sec with the 'copyright' and 'original' flags set to 'on')
+The copyright and original flags do not add anything to the mp3 file, they 
+just let you specify the status of the music file.
+
+-----------------------------------------------------------Known misfeatures----
+
+These are the know misfeatures (bugs ?:)
+  *It is known to crash. (but not often *phew*)
+  *If you want the best quality, you should go with a Fraunhofer encoder.
+   These really are the best, by far. Speed or no speed. 
+   Xing-engine based programs are blazing fast, but they cut-off at 16Khz, 
+   so they have way less work to do.
+   8hz-mp3 is a nice go at something usefull, but quality wise it is under par.
+   (Quality is on the same level as the other (ISO Source based) free encoder 
+    'MpegEnc' from SoloH:  http:www.isafeelin.org/SoloH)
+  *Some residual debug output will from time to time be printed.
+
+-----------------------------------------------------------How to contribute----
+
+As it will be very exciting (and usefull :) to have the software on all kinds
+  of machines/OS' and due to the many requests we have decided to put the 
+  source of the next version online, so everybody can port it to the platforms 
+  they desire.
+
+We'd like to 'coordinate' a wider effort to get these ISO sources fast and
+  better than they are now, many people have already mentioned they'd like to
+  help. When the sources for v0.2 are available we'll be waiting for all your 
+  patches and updates to use them in the next version.
+
+For more information read the deveopment page at : http://www.8hz.com/mp3/devel/
+
+-----------------------------------------------------------Version History------
+
+version 0.1b
+  Removed all MPEG Layer I/II support,
+  Removed all MPEG II support,
+  Rearranged some routines,
+  Optimised a little ( at least 40%, for intel based machines ).
+
+version 0.11b (Microsoft windows 95/NT only)
+  Hacked a simple GUI.
+
+-----------------------------------------------------------Disclaimer-----------
+
+This software is the result of the experimenting we've done with the
+  original ISO sources, the primary goal of which was for us to learn.
+ 
+These software programs are available to the user without any 
+  license fee or royalty on an "as is" basis.  
+
+We disclaim all warranties and fitness for a particular purpose,
+  in short "use at your own risk".
+
+In no event we will accept liability for any incidental, punitive, 
+  or consequential damages of any kind whatsoever arising from the 
+  use of this program.
+
+We do not represent or warrant that the programs furnished hereunder 
+  are free of infringement or any third-party patents, copyrights 
+  or trade secrets.
+
+-----------------------------------------------------------List of Contributors-
+
+The performance increase, WAVE support and 'uncluttering' of the code:
+8hz-mp3: (general email: 8hz-mp3@8hz.com)
+
+alex@8hz.com   (A.R. v. Ballegooy) 
+goran@8hz.com  (G. Dokic)
+
+
+This is the list of contributors the documentation with the original 
+ISO sources gives. (These people know their stuff, Respect!)
+
+Bill Aspromonte    Shaun Astarabadi    R. Bittner          Karlheinz Brandenburg
+W. Joseph Carter   Jack Chang          Mike Coleman        Johnathan Devine
+Ernst Eberlein     Dan Ellis           Peter Farrett       Jean-Georges Fritsch
+Vlad Fruchter      Hendrik Fuchs       Bernhard Grill      Amit Gulati
+Munsi Haque        Chuck Hsiao         Toshiyuki Ishino    Masahiro Iwadare
+Earl Jennings      James Johnston      Leon v.d. Kerkhof   Don Lee
+Mike Li            Yu-Tang Lin         Soren Neilsen       Simao F. Campos Neto
+Mark Paley         Davis Pan           Tan Ah Peng         Kevin Peterson
+Juan Pineda        Ernst F. Schroeder  Peter Siebert       Jens Spille
+Sam Stewart        Al Tabayoyon        Kathy Wang          Franz-Otto Witte
+Douglas Wong
+
+
+
+--------------------------------------------------------------------------------

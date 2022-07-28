@@ -1,0 +1,64 @@
+--------------------Configuration: GZLib - Win32 Debug--------------------
+Begining build with project "E:\fapp2\Development\GZLib\GZLib.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /GX /Z7 /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/GZLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o"Debug/GZLib.bsc" "
+			"Library Manager" with flags "/nologo /out:"Debug\GZLib.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP2D2.tmp" with contents </nologo /MLd /W3 /GX /Z7 /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/GZLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\fapp2\Development\GZLib\adler32.c"
+"E:\fapp2\Development\GZLib\compress.c"
+"E:\fapp2\Development\GZLib\crc32.c"
+"E:\fapp2\Development\GZLib\deflate.c"
+"E:\fapp2\Development\GZLib\gzio.c"
+"E:\fapp2\Development\GZLib\infblock.c"
+"E:\fapp2\Development\GZLib\infcodes.c"
+"E:\fapp2\Development\GZLib\inffast.c"
+"E:\fapp2\Development\GZLib\inflate.c"
+"E:\fapp2\Development\GZLib\inftrees.c"
+"E:\fapp2\Development\GZLib\infutil.c"
+"E:\fapp2\Development\GZLib\trees.c"
+"E:\fapp2\Development\GZLib\uncompr.c"
+"E:\fapp2\Development\GZLib\zutil.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP2D2.tmp" 
+Creating temp file "C:\TEMP\RSP2D3.tmp" with contents </nologo /out:"Debug\GZLib.lib" 
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj>
+Creating command line "link.exe -lib @C:\TEMP\RSP2D3.tmp" 
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+
+
+
+GZLib.lib - 0 error(s), 0 warning(s)

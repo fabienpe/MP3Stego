@@ -1,0 +1,43 @@
+*************************************************************************
+ISO MPEG Audio Subgroup Software Simulation Group (1996)
+ISO 13818-3 MPEG-2 Audio Codec
+
+$Id: INSTALL,v 1.1 1996/02/14 05:51:19 rowlands Exp $
+
+$Log: INSTALL,v $
+Revision 1.1  1996/02/14 05:51:19  rowlands
+Initial revision
+
+*************************************************************************
+
+Building the MPEG audio decoding software:
+
+If you have gnu make and are on a Unix-type system, you should only have to
+type:
+
+./configure
+make
+
+This will create a Makefile customized to your environment, overwriting the
+previous Makefile, using Makefile.in as a template.
+
+For other systems you may have to modify the Makefile. Some flags of
+interest are:
+
+BS_FORMAT
+  Set to BINARY to work with most MPEG audio decoders (and save space). You
+  can set it to ASCII, but your bitstream will only work with musicout().
+
+HAVE_NINT
+  Define this if your math library already has nint().
+
+NDEBUG
+  Define this to turn off all the assertions. Don't define this if you
+  are developing code.
+
+DEBUG
+  Define this to get debugging messages printed to stdout.
+
+For non-Unix systems you may have to define other things. Be sure to look
+at common.h. If you build this on a Macintosh, be sure to use a fairly
+recent set of Universal Headers.

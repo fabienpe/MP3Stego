@@ -1,0 +1,112 @@
+-----------------------------------------------------------Development----------
+Development information for 8hz-mp3.
+
+Mon Jun  1 11:59:06 MET DST 1998
+
+Contents
+	How to submit additions/alterations.
+        What will we put on our site.	
+	Requested Features.
+	Contributors so far.
+
+ 
+-----------------------------------------How to submit additions/alterations.---
+
+To keep distribution of the encoder organized, we would like to make www.8hz.com
+the definate source of info and resoures. 
+We will Make pages with links to your particular project if you email
+us the URL and a description of the work you are doing. People interested 
+in helping you out can find you easily this way. 
+Any platform/system dependend additions/alterations we would like to receive 
+as '#ifdef-ed' parts in the code, to be able to compile the source easily for 
+other systems.
+
+As diff files are difficult to use (everybody will probably start out with
+another source so changes are difficult to figure out if we only get the
+diff file...), so we'd like to receive emails with (complete) routines/files
+wich you've changed and a description thereof... 
+Be especially thorough in your description of the result of your code, as we 
+want to be able to understand quickly what you have added or changed. 
+
+
+Our goal is to create a package that will compile on (almost) any system,
+so if anybody feels like creating a 'config' script thingy or a multi-platfrom
+makefile...
+
+As MS-Windows does not generally contain GCC or whatever, the 'configure'
+system will not work. There has to be some kind of 'standard' for the 
+project there. We prefer MS-VC 4.x for the development. And as every available
+C compiler in Windows uses it's own configuration and project files it will
+be easiest if we settle on one system, to make development on that system 
+straight forward. This goes for the encoder and for the frontend. 
+The windows encoder is currently a 32bit console app because this will enable
+VC4.x to compile the latest encoder source with allmost no problems...
+If anyboy needs our VC project file or some advice for porting to Windows,
+please drop us a line.
+
+We envision the GUI's to be front-ends only, so please don't send us
+integrated GUI's, because we'd like to maintain platform-independency as much
+as is possible... The best way to facilitate this is to have a separate i
+(command line) encoder, wich isn't cluttered with system dependend GUI code. 
+This goes for the Windows GUI also, because many people have expressed that 
+they want to use a command line version. 
+
+
+-----------------------------------------What will we put on our site-----------
+
+We'd like to maintain the source, if you'd like to port the encoder to a
+specific platform, please put the binary on your own site, due to space and
+bandwidth limitations we can't keep all binary versions on our site.
+
+We will put the following stuff on www.8hz.com/mp3 :
+- The latest version of the encoder source and sources for the GUI's.
+- Binary versions for linux(ix86), FreeBSD(ix86) and MS-Windows.
+- Links to *your* binaries for other platforms.
+- Links to *your* frontends, with descriptions you emailed us and probably a
+  picture of the GUI.
+- A page dedicated to the development effort with any relevant information 
+  and tips/tricks *you* email us.
+  Of course links will be to where you have the source/binary available,
+  eg. your page, not just the binary itself.
+- Overviews of features added and changes made. 
+- The comments/requests page will stay online to make it easy for users of 
+  the software to express their wishes.
+  If you want to help out and do not know what to do, please keep an eye on 
+  that page.
+- We are busy in setting up a mailing list for the development of 8hz-mp3, so
+  expect to find more information on our site.
+
+-----------------------------------------------------Requested Features.--------
+
+Because lots of people have written to us with requests, we will note them here.
+- Support other audioformats as input.
+- Reading from stdin and writing to stdout.
+- Improvement of sound quality.
+- More speed. 
+- GUI's for all kinds of platforms. 
+- Less small and large bugs :)
+
+-----------------------------------------Contributors so far--------------------
+
+First mutilation of the ISO sources and initiators of this project.
+
+alex@8hz.com   (A.R. v. Ballegooy)
+goran@8hz.com  (G. Dokic)
+
+This is the list of contributors the documentation with the original 
+ISO sources gives. (These people know their stuff, Respect!)
+
+Bill Aspromonte    Shaun Astarabadi    R. Bittner          Karlheinz Brandenburg
+W. Joseph Carter   Jack Chang          Mike Coleman        Johnathan Devine
+Ernst Eberlein     Dan Ellis           Peter Farrett       Jean-Georges Fritsch
+Vlad Fruchter      Hendrik Fuchs       Bernhard Grill      Amit Gulati
+Munsi Haque        Chuck Hsiao         Toshiyuki Ishino    Masahiro Iwadare
+Earl Jennings      James Johnston      Leon v.d. Kerkhof   Don Lee
+Mike Li            Yu-Tang Lin         Soren Neilsen       Simao F. Campos Neto
+Mark Paley         Davis Pan           Tan Ah Peng         Kevin Peterson
+Juan Pineda        Ernst F. Schroeder  Peter Siebert       Jens Spille
+Sam Stewart        Al Tabayoyon        Kathy Wang          Franz-Otto Witte
+Douglas Wong
+
+
+--------------------------------------------------------------------------------
